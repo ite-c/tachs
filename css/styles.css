@@ -2242,8 +2242,6 @@ select {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    overflow: hidden;
-    border: 3px solid var(--color-primary-light);
 }
 
 .story-image img {
@@ -6916,7 +6914,7 @@ select {
     position: relative;
     border-radius: var(--border-radius-lg);
     overflow: hidden;
-    box-shadow: var(--shadow-lg);
+    /* box-shadow: var(--shadow-lg); */
     transition: transform 0.3s ease;
 }
 
@@ -6949,23 +6947,23 @@ select {
 }
 
 .housing-illustration {
-    background-color: var(--color-primary);
+    /* background-color: var(--color-primary); */
 }
 
 .energy-illustration {
-    background-color: #f39c12;
+    /* background-color: #f39c12; */
 }
 
 .innovation-illustration {
-    background-color: #3498db;
+    /* background-color: #3498db; */
 }
 
 .financial-illustration {
-    background-color: #9b59b6;
+    /* background-color: #9b59b6; */
 }
 
 .urbanization-illustration {
-    background-color: #34495e;
+    /* background-color: #34495e; */
 }
 
 .solution-cta {
@@ -7269,7 +7267,7 @@ select {
     position: relative;
     border-radius: var(--border-radius-lg);
     overflow: hidden;
-    box-shadow: var(--shadow-lg);
+    /* box-shadow: var(--shadow-lg); */
     transition: transform 0.3s ease;
 }
 
@@ -7302,23 +7300,23 @@ select {
 }
 
 .housing-illustration {
-    background-color: var(--color-primary);
+    /* background-color: var(--color-primary); */
 }
 
 .energy-illustration {
-    background-color: #f39c12;
+    /* background-color: #f39c12; */
 }
 
 .innovation-illustration {
-    background-color: #3498db;
+    /* background-color: #3498db; */
 }
 
 .financial-illustration {
-    background-color: #9b59b6;
+    /* background-color: #9b59b6; */
 }
 
 .urbanization-illustration {
-    background-color: #34495e;
+    /* background-color: #34495e; */
 }
 
 .solution-cta {
