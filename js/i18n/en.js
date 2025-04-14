@@ -14,7 +14,7 @@ export default {
   },
 
   hero: {
-    title: "TOGO AFFORDABLETOGO AFFORDABLE",
+    title: "TOGO AFFORDABLE",
     subtitle:
       "We Ensures affordability while promoting innovation and environmental sustainability.",
     discoverHow: "Discover How",
