@@ -35,921 +35,2257 @@
   </head>
 
   <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-      <div class="container">
-        <div class="logo">
-          <a href="#hero"
-            ><img src="images/tach500x500.svg" alt="TACH" class="logo-img"
-          /></a>
-        </div>
-        <div class="nav-toggle" id="navToggle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <ul class="nav-menu">
-          <li>
-            <a href="#crisis" class="nav-link" data-i18n="navigation.crisis"
-              >The Crisis</a
-            >
-          </li>
-          <li>
-            <a
-              href="#solution"
-              class="nav-link"
-              data-i18n="navigation.solutions"
-              >Solution</a
-            >
-          </li>
-          <li>
-            <a href="#models" class="nav-link" data-i18n="navigation.models"
-              >Models</a
-            >
-          </li>
-          <li>
-            <a
-              href="#experience"
-              class="nav-link"
-              data-i18n="navigation.experience"
-              >Experience</a
-            >
-          </li>
-          <li>
-            <a href="#for-who" class="nav-link" data-i18n="navigation.forWho"
-              >For Who</a
-            >
-          </li>
-          <li>
-            <a href="#impact" class="nav-link" data-i18n="navigation.impact"
-              >Impact</a
-            >
-          </li>
-          <li>
-            <a
-              href="#footer"
-              class="nav-link contact-btn"
-              data-i18n="navigation.contact"
-              >Contact</a
-            >
-          </li>
-          <!--<li class="language-switcher">
-            <button id="lang-toggle" class="lang-toggle">
-              <span id="current-lang">EN</span>
-              <i class="fas fa-globe"></i>
-            </button>
-            <div class="language-menu">
-              <a href="#" data-lang="en" class="lang-option active">English</a>
-              <a href="#" data-lang="fr" class="lang-option">Français</a>
-            </div>
-          </li>-->
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero fullscreen">
-      <div class="hero-content">
-        <h1 class="hero-title animate-text">
-          <span class="line" data-i18n="hero.title">TOGO AFFORDABLE</span>
-          <span class="line accent">CONTAINER HOME & SPACE</span>
-          <span class="line tach">TACHS</span>
-        </h1>
-        <p class="hero-subtitle animate-text-delay" data-i18n="hero.subtitle">
-          We Ensures affordability while promoting innovation and environmental
-          sustainability.
-        </p>
-        <div class="hero-cta animate-button">
-          <a href="#crisis" class="primary-btn" data-i18n="hero.discoverHow"
-            >Discover How</a
-          >
-          <a href="#models" class="secondary-btn" data-i18n="hero.exploreModels"
-            >Explore Models</a
-          >
-        </div>
-      </div>
-      <div class="scroll-indicator">
-        <span data-i18n="hero.scroll">Scroll to explore</span>
-        <i class="fas fa-chevron-down"></i>
-      </div>
-      <div class="hero-background"></div>
-    </section>
-
-    <!-- The Crisis Section -->
-    <section id="crisis" class="crisis-galaxy">
-      <div class="container">
-        <h2 class="section-title">Housing Crisis</h2>
-        <p class="section-intro">
-          Discover why TACH solutions are more vital than ever
-        </p>
-      </div>
-
-      <div class="galaxy-slides">
-        <!-- Housing Shortage Slide -->
-        <div class="galaxy-slide active" id="housing-shortage">
-          <div class="slide-content">
-            <h2 class="slide-title">Housing Shortage</h2>
-            <div class="slide-stat">
-              <div class="stat-number">500<span>Thousand+</span></div>
-              <div class="stat-caption">Housing unit deficit in TOGO</div>
-            </div>
-            <p class="slide-description">
-              In Togo and across West Africa, there is a severe shortage of
-              affordable housing, with hundreds of thousands of families unable
-              to access safe, decent homes due to high construction costs and
-              limited financing options
-            </p>
-            <div class="slide-impact">
-              <h3>The Impact</h3>
-              <ul>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Overcrowded living
-                  conditions
-                </li>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Growth of unplanned
-                  settlements
-                </li>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Sanitation and
-                  health challenges
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="slide-visual">
-            <div class="floating-visual">
-              <div class="floating-illustration house-1">
-                <img src="images/house-shortage.svg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Construction Cost Slide -->
-        <div class="galaxy-slide" id="construction-cost">
-          <div class="slide-content">
-            <h2 class="slide-title">High Cost of Construction</h2>
-            <div class="slide-stat">
-              <div class="stat-number">40<span>%</span></div>
-              <div class="stat-caption">
-                Higher construction costs compared to global averages
-              </div>
-            </div>
-            <p class="slide-description">
-              Traditional building methods are expensive and slow, leaving
-              middle- and low-income earners unable to own homes
-            </p>
-            <div class="slide-impact">
-              <h3>The Impact</h3>
-              <ul>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Housing unaffordable
-                  for middle-income earners
-                </li>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Extended
-                  construction timelines
-                </li>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Compromised quality
-                  and safety
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="slide-visual">
-            <div class="floating-visual">
-              <div class="floating-illustration cost-1">
-                <img src="images/construction-cost.svg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Energy Unreliability Slide -->
-        <div class="galaxy-slide" id="energy-unreliability">
-          <div class="slide-content">
-            <h2 class="slide-title">Energy Unreliability</h2>
-            <div class="slide-stat">
-              <div class="stat-number">4<span>Million+</span></div>
-              <div class="stat-caption">
-                Togolese without reliable access to electricity
-              </div>
-            </div>
-            <p class="slide-description">
-              Across the continent, unreliable power grids disrupt daily life
-              and economic activity. Frequent outages force households and
-              businesses to rely on expensive, polluting generators or go
-              without power altogether.
-            </p>
-            <div class="slide-impact">
-              <h3>The Impact</h3>
-              <ul>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Limited productivity
-                  and education
-                </li>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> High energy costs
-                  for basic needs
-                </li>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Environmental damage
-                  from alternative fuels
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="slide-visual">
-            <div class="floating-visual">
-              <div class="floating-illustration energy-1">
-                <img src="images/energy-unreliable.svg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Innovation Spaces Slide -->
-        <div class="galaxy-slide" id="innovation-spaces">
-          <div class="slide-content">
-            <h2 class="slide-title">Lack of Innovation Spaces</h2>
-            <div class="slide-stat">
-              <div class="stat-number">75<span>%</span></div>
-              <div class="stat-caption">
-                Of startups struggle to find suitable workspaces
-              </div>
-            </div>
-            <p class="slide-description">
-              Entrepreneurial ecosystem is hindered by a scarcity of innovative
-              workspaces. Young entrepreneurs and creators lack accessible,
-              affordable workspaces with the tools and connectivity needed to
-              develop ideas, build businesses, and thrive in the digital economy
-            </p>
-            <div class="slide-impact">
-              <h3>The Impact</h3>
-              <ul>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Constrained
-                  entrepreneurial growth
-                </li>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Limited
-                  collaboration opportunities
-                </li>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Slower technology
-                  adoption and innovation
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="slide-visual">
-            <div class="floating-visual">
-              <div class="floating-illustration innovation-1">
-                <img src="images/inno-space.svg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Financial Exclusion Slide -->
-        <div class="galaxy-slide" id="financial-exclusion">
-          <div class="slide-content">
-            <h2 class="slide-title">Financial Exclusion</h2>
-            <div class="slide-stat">
-              <div class="stat-number">80<span>%</span></div>
-              <div class="stat-caption">
-                Of Togolese lack access to mortgage financing
-              </div>
-            </div>
-            <p class="slide-description">
-              Traditional housing finance remains out of reach for most
-              Togolese. High interest rates, strict collateral requirements, and
-              short loan terms create insurmountable barriers to homeownership
-              for working families.
-            </p>
-            <div class="slide-impact">
-              <h3>The Impact</h3>
-              <ul>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Generational wealth
-                  inequality
-                </li>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Prolonged rental
-                  dependence
-                </li>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Limited housing
-                  market development
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="slide-visual">
-            <div class="floating-visual">
-              <div class="floating-illustration finance-1">
-                <img src="images/financial-exclusion.svg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Urbanization Slide -->
-        <div class="galaxy-slide" id="urbanization">
-          <div class="slide-content">
-            <h2 class="slide-title">Urbanization Pressure</h2>
-            <div class="slide-stat">
-              <div class="stat-number">50<span>%</span></div>
-              <div class="stat-caption">
-                Of Togolese will live in cities by 2030
-              </div>
-            </div>
-            <p class="slide-description">
-              TOGO is experiencing a fast urbanization rate. Cities struggle
-              to accommodate this growth, leading to infrastructure strain,
-              environmental degradation, and a widening gap between housing
-              supply and demand.
-            </p>
-            <div class="slide-impact">
-              <h3>The Impact</h3>
-              <ul>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Expanding informal
-                  settlements
-                </li>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Overwhelmed urban
-                  infrastructure
-                </li>
-                <li>
-                  <i class="fas fa-exclamation-circle"></i> Environmental and
-                  social pressures
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="slide-visual">
-            <div class="floating-visual">
-              <div class="floating-illustration urban-1">
-                <img src="images/urban-pressure.svg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!--<div class="galaxy-controls">
-        <div class="galaxy-progress">
-          <div class="progress-track">
-            <div class="progress-fill"></div>
-          </div>
-        </div>
-        <a href="#solution" class="galaxy-cta">Discover Our Solution</a>-->
-      </div>
-
-      <div class="galaxy-nav">
-        <div class="galaxy-nav-item active" data-slide="housing-shortage">
-          <div class="galaxy-nav-icon"><i class="fas fa-home"></i></div>
-          <div class="galaxy-nav-label">Housing Shortage</div>
-        </div>
-        <div class="galaxy-nav-item" data-slide="construction-cost">
-          <div class="galaxy-nav-icon"><i class="fas fa-hammer"></i></div>
-          <div class="galaxy-nav-label">Construction Cost</div>
-        </div>
-        <div class="galaxy-nav-item" data-slide="energy-unreliability">
-          <div class="galaxy-nav-icon"><i class="fas fa-bolt"></i></div>
-          <div class="galaxy-nav-label">Energy Unreliability</div>
-        </div>
-        <div class="galaxy-nav-item" data-slide="innovation-spaces">
-          <div class="galaxy-nav-icon"><i class="fas fa-lightbulb"></i></div>
-          <div class="galaxy-nav-label">Innovation Spaces</div>
-        </div>
-        <div class="galaxy-nav-item" data-slide="financial-exclusion">
-          <div class="galaxy-nav-icon"><i class="fas fa-wallet"></i></div>
-          <div class="galaxy-nav-label">Financial Exclusion</div>
-        </div>
-        <div class="galaxy-nav-item" data-slide="urbanization">
-          <div class="galaxy-nav-icon"><i class="fas fa-city"></i></div>
-          <div class="galaxy-nav-label">Urbanization</div>
-        </div>
-      </div>
-
-      <div class="stars-bg"></div>
-    </section>
-
-    <!-- Solution Section - Static Design -->
-    <section id="solution" class="solutions-static">
-      <div class="solutions-header">
+    <div id="main-app">
+      <!-- Navigation -->
+      <nav class="navbar">
         <div class="container">
-          <h2 class="section-title">Solutions for Housing Challenges</h2>
-          <p class="section-intro">
-            TACH provides an innovative and scalable solution to the housing and
-            workspace crisis in Togo by leveraging affordable, modular container
-            homes and innovative workspaces powered by renewable energy
-          </p>
-        </div>
-      </div>
-
-      <div class="solutions-tabs">
-        <div class="container">
-          <ul class="nav-tabs">
-            <li class="nav-tab active" data-panel="housing">
-              <div class="tab-icon"><i class="fas fa-home"></i></div>
-              <span class="tab-label">Housing</span>
+          <div class="logo">
+            <a href="#hero"
+              ><img src="images/tach500x500.svg" alt="TACH" class="logo-img"
+            /></a>
+          </div>
+          <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav-menu">
+            <li>
+              <a href="#crisis" class="nav-link" data-i18n="navigation.crisis"
+                >The Crisis</a
+              >
             </li>
-            <li class="nav-tab" data-panel="energy">
-              <div class="tab-icon"><i class="fas fa-solar-panel"></i></div>
-              <span class="tab-label">Energy</span>
+            <li>
+              <a
+                href="#solution"
+                class="nav-link"
+                data-i18n="navigation.solutions"
+                >Solution</a
+              >
             </li>
-            <li class="nav-tab" data-panel="innovation">
-              <div class="tab-icon"><i class="fas fa-lightbulb"></i></div>
-              <span class="tab-label">Innovation</span>
+            <li>
+              <a href="#models" class="nav-link" data-i18n="navigation.models"
+                >Models</a
+              >
             </li>
-            <li class="nav-tab" data-panel="financial">
-              <div class="tab-icon"><i class="fas fa-wallet"></i></div>
-              <span class="tab-label">Financial</span>
+            <li>
+              <a
+                href="#experience"
+                class="nav-link"
+                data-i18n="navigation.experience"
+                >Experience</a
+              >
             </li>
-            <li class="nav-tab" data-panel="urbanization">
-              <div class="tab-icon"><i class="fas fa-city"></i></div>
-              <span class="tab-label">Urbanization</span>
+            <li>
+              <a href="#for-who" class="nav-link" data-i18n="navigation.forWho"
+                >For Who</a
+              >
             </li>
+            <li>
+              <a href="#impact" class="nav-link" data-i18n="navigation.impact"
+                >Impact</a
+              >
+            </li>
+            <li>
+              <a
+                href="#footer"
+                class="nav-link contact-btn"
+                data-i18n="navigation.contact"
+                >Contact</a
+              >
+            </li>
+            <!--<li class="language-switcher">
+              <button id="lang-toggle" class="lang-toggle">
+                <span id="current-lang">EN</span>
+                <i class="fas fa-globe"></i>
+              </button>
+              <div class="language-menu">
+                <a href="#" data-lang="en" class="lang-option active">English</a>
+                <a href="#" data-lang="fr" class="lang-option">Français</a>
+              </div>
+            </li>-->
           </ul>
         </div>
-      </div>
+      </nav>
 
-      <div class="solutions-panels container">
-        <!-- Housing Solution Panel -->
-        <div class="solution-panel active" id="housing-panel" data-index="0">
-          <div class="panel-container">
-            <div class="panel-content">
-              <div class="panel-heading">
-                <h2 class="panel-title">Housing Deficit Solution</h2>
-                <div class="panel-stat">
-                  <div class="stat-number">500</div>
-                  <div class="stat-suffix">Thousands+</div>
-                  <div class="stat-label">Housing Unit Shortage</div>
-                </div>
-              </div>
-
-              <div class="panel-description">
-                <p>
-                  Our container homes are reimagining affordable housing across
-                  Africa, addressing the critical shortage with modular,
-                  sustainable solutions that deploy rapidly and scale
-                  efficiently.
-                </p>
-
-                <div class="feature-cards">
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <i class="fas fa-tags"></i>
-                    </div>
-                    <h3>Affordable Housing</h3>
-                    <p>
-                      50% more affordable than traditional construction methods,
-                      making home ownership accessible to millions.
-                    </p>
-                  </div>
-
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <i class="fas fa-shipping-fast"></i>
-                    </div>
-                    <h3>Rapid Deployment</h3>
-                    <p>
-                      From order to occupancy in weeks, not months, addressing
-                      housing needs with unprecedented speed.
-                    </p>
-                  </div>
-
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <i class="fas fa-expand-arrows-alt"></i>
-                    </div>
-                    <h3>Scalable Model</h3>
-                    <p>
-                      Adaptable designs for both urban centers and rural
-                      communities, scaling to meet diverse needs.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="panel-visual">
-              <div class="simple-illustration housing-illustration">
-                <img
-                  src="images/containerhome.svg"
-                  alt="Container Home Illustration"
-                />
-                <div class="illustration-icon">
-                  <i class="fas fa-home"></i>
-                </div>
-              </div>
-            </div>
+      <!-- Hero Section -->
+      <section id="hero" class="hero fullscreen">
+        <div class="hero-content">
+          <h1 class="hero-title animate-text">
+            <span class="line" data-i18n="hero.title">TOGO AFFORDABLE</span>
+            <span class="line accent">CONTAINER HOME & SPACE</span>
+            <span class="line tach">TACHS</span>
+          </h1>
+          <p class="hero-subtitle animate-text-delay" data-i18n="hero.subtitle">
+            We see an Africa where dreamers and doers find a home. Where the
+            stress of finding a decent place to live fades into the past, and
+            every container we place becomes a vessel for innovation, peace, and
+            progress.
+          </p>
+          <div class="hero-cta animate-button">
+            <a href="#crisis" class="primary-btn" data-i18n="hero.discoverHow"
+              >Discover How</a
+            >
+            <a
+              href="#models"
+              class="secondary-btn"
+              data-i18n="hero.exploreModels"
+              >Explore Models</a
+            >
           </div>
         </div>
-
-        <!-- Energy Solution Panel -->
-        <div class="solution-panel" id="energy-panel" data-index="1">
-          <div class="panel-container">
-            <div class="panel-content">
-              <div class="panel-heading">
-                <h2 class="panel-title">Energy Crisis Solution</h2>
-                <div class="panel-stat">
-                  <div class="stat-number">4</div>
-                  <div class="stat-suffix">Million+</div>
-                  <div class="stat-label">People Without Reliable Power</div>
-                </div>
-              </div>
-
-              <div class="panel-description">
-                <p>
-                  Our integrated solar solutions transform living standards
-                  across Togo, providing renewable, reliable energy to homes
-                  and communities independent of unstable grid infrastructure.
-                </p>
-
-                <div class="feature-cards">
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <i class="fas fa-solar-panel"></i>
-                    </div>
-                    <h3>Solar-Powered Homes</h3>
-                    <p>
-                      Every container includes integrated solar panels and
-                      battery storage for 24/7 reliable energy.
-                    </p>
-                  </div>
-
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <i class="fas fa-money-bill-wave"></i>
-                    </div>
-                    <h3>Cost-Effective Energy</h3>
-                    <p>
-                      Save up to 70% on energy costs compared to traditional
-                      grid connections and generators.
-                    </p>
-                  </div>
-
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <i class="fas fa-leaf"></i>
-                    </div>
-                    <h3>Sustainable Power</h3>
-                    <p>
-                      Clean, renewable energy that eliminates pollution and
-                      reduces carbon footprint.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="panel-visual">
-              <div class="simple-illustration energy-illustration">
-                <img
-                  src="images/solar.png"
-                  alt="Solar Energy Illustration"
-                />
-                <div class="illustration-icon">
-                  <i class="fas fa-solar-panel"></i>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="scroll-indicator">
+          <span data-i18n="hero.scroll">Scroll to explore</span>
+          <i class="fas fa-chevron-down"></i>
         </div>
+        <div class="hero-background"></div>
+      </section>
 
-        <!-- Innovation Spaces Panel -->
-        <div class="solution-panel" id="innovation-panel" data-index="2">
-          <div class="panel-container">
-            <div class="panel-content">
-              <div class="panel-heading">
-                <h2 class="panel-title">Innovation Spaces Solution</h2>
-                <div class="panel-stat">
-                  <div class="stat-number">70</div>
-                  <div class="stat-suffix">%</div>
-                  <div class="stat-label">Innovation Gap Reduction</div>
-                </div>
-              </div>
-
-              <div class="panel-description">
-                <p>
-                  Our versatile container workspaces create affordable,
-                  connected environments for entrepreneurs and
-                  innovators, building a foundation for economic growth.
-                </p>
-
-                <div class="feature-cards">
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <i class="fas fa-building"></i>
-                    </div>
-                    <h3>Dedicated Innovation Hubs</h3>
-                    <p>
-                      Purpose-built coworking and innovation spaces designed for
-                      maximum collaboration and creativity.
-                    </p>
-                  </div>
-
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <i class="fas fa-rocket"></i>
-                    </div>
-                    <h3>Startup Support</h3>
-                    <p>
-                      Flexible spaces that grow with your business, from solo
-                      entrepreneurs to expanding teams.
-                    </p>
-                  </div>
-
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Economic Growth</h3>
-                    <p>
-                      Community workspaces that foster local innovation, job
-                      creation, and economic development.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="panel-visual">
-              <div class="simple-illustration innovation-illustration">
-                <img
-                  src="images/innovative.png"
-                  alt="Innovation Space Illustration"
-                />
-                <div class="illustration-icon">
-                  <i class="fas fa-lightbulb"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Financial Inclusion Panel -->
-        <div class="solution-panel" id="financial-panel" data-index="3">
-          <div class="panel-container">
-            <div class="panel-content">
-              <div class="panel-heading">
-                <h2 class="panel-title">Financial Exclusion Solution</h2>
-                <div class="panel-stat">
-                  <div class="stat-number">57</div>
-                  <div class="stat-suffix">%</div>
-                  <div class="stat-label">Unbanked Adults</div>
-                </div>
-              </div>
-
-              <div class="panel-description">
-                <p>
-                  Our innovative financing models break down traditional
-                  barriers to homeownership, creating accessible pathways to
-                  property ownership for all income levels.
-                </p>
-
-                <div class="feature-cards">
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <i class="fas fa-house-user"></i>
-                    </div>
-                    <h3>Accessible Homeownership</h3>
-                    <p>
-                      Flexible rent-to-own programs that build equity from day
-                      one, without traditional mortgage requirements.
-                    </p>
-                  </div>
-
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <i class="fas fa-hand-holding-usd"></i>
-                    </div>
-                    <h3>Barrier Removal</h3>
-                    <p>
-                      No large down payments or complex banking history
-                      required, opening homeownership to the unbanked.
-                    </p>
-                  </div>
-
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <i class="fas fa-piggy-bank"></i>
-                    </div>
-                    <h3>Wealth Building</h3>
-                    <p>
-                      Turning housing expenses into asset ownership, creating
-                      generational wealth for families.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="panel-visual">
-              <div class="simple-illustration financial-illustration">
-                <img
-                  src="images/financial.png"
-                  alt="Financial Access Illustration"
-                />
-                <div class="illustration-icon">
-                  <i class="fas fa-wallet"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Urbanization Panel -->
-        <div class="solution-panel" id="urbanization-panel" data-index="4">
-          <div class="panel-container">
-            <div class="panel-content">
-              <div class="panel-heading">
-                <h2 class="panel-title">Urbanization Challenges Solution</h2>
-                <div class="panel-stat">
-                  <div class="stat-number">50</div>
-                  <div class="stat-suffix">%</div>
-                  <div class="stat-label">Urban Population by 2030</div>
-                </div>
-              </div>
-
-              <div class="panel-description">
-                <p>
-                  Our container housing solutions provide the scalability and
-                  speed needed to accommodate Africa's rapid urbanization,
-                  creating sustainable, organized urban development.
-                </p>
-
-                <div class="feature-cards">
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <i class="fas fa-city"></i>
-                    </div>
-                    <h3>Efficient Urban Expansion</h3>
-                    <p>
-                      Rapidly deployable housing that allows cities to expand in
-                      an organized, planned manner.
-                    </p>
-                  </div>
-
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <i class="fas fa-home"></i>
-                    </div>
-                    <h3>Slum Prevention</h3>
-                    <p>
-                      Affordable, quality housing that prevents the formation of
-                      unplanned settlements and slums.
-                    </p>
-                  </div>
-
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <i class="fas fa-project-diagram"></i>
-                    </div>
-                    <h3>Modular Development</h3>
-                    <p>
-                      Stackable, adaptable designs that maximize limited urban
-                      space for high-density living.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="panel-visual">
-              <div class="simple-illustration urbanization-illustration">
-                <img
-                  src="images/urbanization.svg"
-                  alt="Urban Development Illustration"
-                />
-                <div class="illustration-icon">
-                  <i class="fas fa-city"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Models Section -->
-    <section id="models" class="models">
-      <div class="container">
-        <h2 class="section-title">Our Container Living Spaces</h2>
-        <div class="models-intro">
-          <p>
-            Discover the perfect space designed for your lifestyle needs and
-            budget
+      <!-- The Crisis Section -->
+      <section id="crisis" class="crisis-galaxy">
+        <div class="container">
+          <h2 class="section-title">Housing Crisis</h2>
+          <p class="section-intro">
+            Discover why TACH solutions are more vital than ever
           </p>
         </div>
 
-        <div class="models-tabs">
-          <div class="tab-nav">
-            <div class="tab-button active" data-model="studio">
-              <i class="fas fa-home"></i>
-              <span>Studio</span>
+        <div class="galaxy-slides">
+          <!-- Housing Shortage Slide -->
+          <div class="galaxy-slide active" id="housing-shortage">
+            <div class="slide-content">
+              <h2 class="slide-title">Housing Shortage</h2>
+              <div class="slide-stat">
+                <div class="stat-number">500<span>Thousand+</span></div>
+                <div class="stat-caption">Housing unit deficit in TOGO</div>
+              </div>
+              <p class="slide-description">
+                In Togo and across West Africa, there is a severe shortage of
+                affordable housing, with hundreds of thousands of families
+                unable to access safe, decent homes due to high construction
+                costs and limited financing options
+              </p>
+              <div class="slide-impact">
+                <h3>The Impact</h3>
+                <ul>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Overcrowded living
+                    conditions
+                  </li>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Growth of
+                    unplanned settlements
+                  </li>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Sanitation and
+                    health challenges
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="tab-button" data-model="big-studio">
-              <i class="fas fa-bath"></i>
-              <span>Big Studio</span>
-            </div>
-            <div class="tab-button" data-model="apartment">
-              <i class="fas fa-users"></i>
-              <span>Apartment</span>
-            </div>
-            <div class="tab-button" data-model="coworking">
-              <i class="fas fa-laptop"></i>
-              <span>Co-Working</span>
+            <div class="slide-visual">
+              <div class="floating-visual">
+                <div class="floating-illustration house-1">
+                  <img src="images/house-shortage.svg" alt="" />
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="models-content">
-            <!-- Studio Model -->
-            <div class="model-panel active" id="studio-panel">
-              <div class="model-info">
-                <div class="model-header">
-                  <h3>The Studio</h3>
-                  <div class="model-tag">Most Affordable</div>
+          <!-- Construction Cost Slide -->
+          <div class="galaxy-slide" id="construction-cost">
+            <div class="slide-content">
+              <h2 class="slide-title">High Cost of Construction</h2>
+              <div class="slide-stat">
+                <div class="stat-number">40<span>%</span></div>
+                <div class="stat-caption">
+                  Higher construction costs compared to global averages
                 </div>
-                <p class="model-subtitle">Compact & Efficient Living for One</p>
+              </div>
+              <p class="slide-description">
+                Traditional building methods are expensive and slow, leaving
+                middle- and low-income earners unable to own homes
+              </p>
+              <div class="slide-impact">
+                <h3>The Impact</h3>
+                <ul>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Housing
+                    unaffordable for middle-income earners
+                  </li>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Extended
+                    construction timelines
+                  </li>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Compromised
+                    quality and safety
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="slide-visual">
+              <div class="floating-visual">
+                <div class="floating-illustration cost-1">
+                  <img src="images/construction-cost.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
 
-                <div class="model-specs">
-                  <div class="spec-item">
-                    <div class="spec-icon">
-                      <i class="fas fa-expand-arrows-alt"></i>
-                    </div>
-                    <div class="spec-detail">
-                      <span class="spec-value">20m²</span>
-                      <span class="spec-label">Floor Area</span>
-                    </div>
-                  </div>
-                  <div class="spec-item">
-                    <div class="spec-icon"><i class="fas fa-bed"></i></div>
-                    <div class="spec-detail">
-                      <span class="spec-value">1 Person</span>
-                      <span class="spec-label">Capacity</span>
-                    </div>
-                  </div>
-                  <div class="spec-item">
-                    <div class="spec-icon"><i class="fas fa-shower"></i></div>
-                    <div class="spec-detail">
-                      <span class="spec-value">Shared</span>
-                      <span class="spec-label">Bathroom</span>
-                    </div>
-                  </div>
-                  <div class="spec-item">
-                    <div class="spec-icon"><i class="fas fa-utensils"></i></div>
-                    <div class="spec-detail">
-                      <span class="spec-value">Shared</span>
-                      <span class="spec-label">Kitchen</span>
-                    </div>
+          <!-- Energy Unreliability Slide -->
+          <div class="galaxy-slide" id="energy-unreliability">
+            <div class="slide-content">
+              <h2 class="slide-title">Energy Unreliability</h2>
+              <div class="slide-stat">
+                <div class="stat-number">4<span>Million+</span></div>
+                <div class="stat-caption">
+                  Togolese without reliable access to electricity
+                </div>
+              </div>
+              <p class="slide-description">
+                Across the continent, unreliable power grids disrupt daily life
+                and economic activity. Frequent outages force households and
+                businesses to rely on expensive, polluting generators or go
+                without power altogether.
+              </p>
+              <div class="slide-impact">
+                <h3>The Impact</h3>
+                <ul>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Limited
+                    productivity and education
+                  </li>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> High energy costs
+                    for basic needs
+                  </li>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Environmental
+                    damage from alternative fuels
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="slide-visual">
+              <div class="floating-visual">
+                <div class="floating-illustration energy-1">
+                  <img src="images/energy-unreliable.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Innovation Spaces Slide -->
+          <div class="galaxy-slide" id="innovation-spaces">
+            <div class="slide-content">
+              <h2 class="slide-title">Lack of Innovation Spaces</h2>
+              <div class="slide-stat">
+                <div class="stat-number">75<span>%</span></div>
+                <div class="stat-caption">
+                  Of startups struggle to find suitable workspaces
+                </div>
+              </div>
+              <p class="slide-description">
+                Entrepreneurial ecosystem is hindered by a scarcity of
+                innovative workspaces. Young entrepreneurs and creators lack
+                accessible, affordable workspaces with the tools and
+                connectivity needed to develop ideas, build businesses, and
+                thrive in the digital economy
+              </p>
+              <div class="slide-impact">
+                <h3>The Impact</h3>
+                <ul>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Constrained
+                    entrepreneurial growth
+                  </li>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Limited
+                    collaboration opportunities
+                  </li>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Slower technology
+                    adoption and innovation
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="slide-visual">
+              <div class="floating-visual">
+                <div class="floating-illustration innovation-1">
+                  <img src="images/inno-space.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Financial Exclusion Slide -->
+          <div class="galaxy-slide" id="financial-exclusion">
+            <div class="slide-content">
+              <h2 class="slide-title">Financial Exclusion</h2>
+              <div class="slide-stat">
+                <div class="stat-number">80<span>%</span></div>
+                <div class="stat-caption">
+                  Of Togolese lack access to mortgage financing
+                </div>
+              </div>
+              <p class="slide-description">
+                Traditional housing finance remains out of reach for most
+                Togolese. High interest rates, strict collateral requirements,
+                and short loan terms create insurmountable barriers to
+                homeownership for working families.
+              </p>
+              <div class="slide-impact">
+                <h3>The Impact</h3>
+                <ul>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Generational
+                    wealth inequality
+                  </li>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Prolonged rental
+                    dependence
+                  </li>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Limited housing
+                    market development
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="slide-visual">
+              <div class="floating-visual">
+                <div class="floating-illustration finance-1">
+                  <img src="images/financial-exclusion.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Urbanization Slide -->
+          <div class="galaxy-slide" id="urbanization">
+            <div class="slide-content">
+              <h2 class="slide-title">Urbanization Pressure</h2>
+              <div class="slide-stat">
+                <div class="stat-number">50<span>%</span></div>
+                <div class="stat-caption">
+                  Of Togolese will live in cities by 2030
+                </div>
+              </div>
+              <p class="slide-description">
+                TOGO is experiencing a fast urbanization rate. Cities struggle
+                to accommodate this growth, leading to infrastructure strain,
+                environmental degradation, and a widening gap between housing
+                supply and demand.
+              </p>
+              <div class="slide-impact">
+                <h3>The Impact</h3>
+                <ul>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Expanding informal
+                    settlements
+                  </li>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Overwhelmed urban
+                    infrastructure
+                  </li>
+                  <li>
+                    <i class="fas fa-exclamation-circle"></i> Environmental and
+                    social pressures
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="slide-visual">
+              <div class="floating-visual">
+                <div class="floating-illustration urban-1">
+                  <img src="images/urban-pressure.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--<div class="galaxy-controls">
+          <div class="galaxy-progress">
+            <div class="progress-track">
+              <div class="progress-fill"></div>
+            </div>
+          </div>
+          <a href="#solution" class="galaxy-cta">Discover Our Solution</a>
+        </div>-->
+
+        <div class="galaxy-nav">
+          <div class="galaxy-nav-item active" data-slide="housing-shortage">
+            <div class="galaxy-nav-icon"><i class="fas fa-home"></i></div>
+            <div class="galaxy-nav-label">Housing Shortage</div>
+          </div>
+          <div class="galaxy-nav-item" data-slide="construction-cost">
+            <div class="galaxy-nav-icon"><i class="fas fa-hammer"></i></div>
+            <div class="galaxy-nav-label">Construction Cost</div>
+          </div>
+          <div class="galaxy-nav-item" data-slide="energy-unreliability">
+            <div class="galaxy-nav-icon"><i class="fas fa-bolt"></i></div>
+            <div class="galaxy-nav-label">Energy Unreliability</div>
+          </div>
+          <div class="galaxy-nav-item" data-slide="innovation-spaces">
+            <div class="galaxy-nav-icon"><i class="fas fa-lightbulb"></i></div>
+            <div class="galaxy-nav-label">Innovation Spaces</div>
+          </div>
+          <div class="galaxy-nav-item" data-slide="financial-exclusion">
+            <div class="galaxy-nav-icon"><i class="fas fa-wallet"></i></div>
+            <div class="galaxy-nav-label">Financial Exclusion</div>
+          </div>
+          <div class="galaxy-nav-item" data-slide="urbanization">
+            <div class="galaxy-nav-icon"><i class="fas fa-city"></i></div>
+            <div class="galaxy-nav-label">Urbanization</div>
+          </div>
+        </div>
+
+        <div class="stars-bg"></div>
+      </section>
+
+      <!-- Solution Section - Static Design -->
+      <section id="solution" class="solutions-static">
+        <div class="solutions-header">
+          <div class="container">
+            <h2 class="section-title">Solutions for Housing Challenges</h2>
+            <p class="section-intro">
+              TACH provides an innovative and scalable solution to the housing
+              and workspace crisis in Togo by leveraging affordable, modular
+              container homes and innovative workspaces powered by renewable
+              energy
+            </p>
+          </div>
+        </div>
+
+        <div class="solutions-tabs">
+          <div class="container">
+            <ul class="nav-tabs">
+              <li class="nav-tab active" data-panel="housing">
+                <div class="tab-icon"><i class="fas fa-home"></i></div>
+                <span class="tab-label">Housing</span>
+              </li>
+              <li class="nav-tab" data-panel="energy">
+                <div class="tab-icon"><i class="fas fa-solar-panel"></i></div>
+                <span class="tab-label">Energy</span>
+              </li>
+              <li class="nav-tab" data-panel="innovation">
+                <div class="tab-icon"><i class="fas fa-lightbulb"></i></div>
+                <span class="tab-label">Innovation</span>
+              </li>
+              <li class="nav-tab" data-panel="financial">
+                <div class="tab-icon"><i class="fas fa-wallet"></i></div>
+                <span class="tab-label">Financial</span>
+              </li>
+              <li class="nav-tab" data-panel="urbanization">
+                <div class="tab-icon"><i class="fas fa-city"></i></div>
+                <span class="tab-label">Urbanization</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="solutions-panels container">
+          <!-- Housing Solution Panel -->
+          <div class="solution-panel active" id="housing-panel" data-index="0">
+            <div class="panel-container">
+              <div class="panel-content">
+                <div class="panel-heading">
+                  <h2 class="panel-title">Housing Deficit Solution</h2>
+                  <div class="panel-stat">
+                    <div class="stat-number">500</div>
+                    <div class="stat-suffix">Thousands+</div>
+                    <div class="stat-label">Housing Unit Shortage</div>
                   </div>
                 </div>
 
-                <div class="model-description">
+                <div class="panel-description">
                   <p>
-                    Our entry-level studio offers a comfortable and affordable
-                    living space perfect for individuals seeking their own
-                    private sanctuary. With shared bathroom and kitchen
-                    facilities, this model provides the perfect balance of
-                    privacy and community living at our most accessible price
-                    point.
+                    Our container homes are reimagining affordable housing
+                    across Africa, addressing the critical shortage with
+                    modular, sustainable solutions that deploy rapidly and scale
+                    efficiently.
                   </p>
-                </div>
 
-                <div class="model-features">
-                  <div class="feature-tag">
-                    <i class="fas fa-bolt"></i> Solar Ready
-                  </div>
-                  <div class="feature-tag">
-                    <i class="fas fa-wifi"></i> WiFi Ready
-                  </div>
-                  <div class="feature-tag">
-                    <i class="fas fa-tint"></i> Water Harvesting
-                  </div>
-                  <div class="feature-tag">
-                    <i class="fas fa-leaf"></i> Eco Materials
+                  <div class="feature-cards">
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <i class="fas fa-tags"></i>
+                      </div>
+                      <h3>Affordable Housing</h3>
+                      <p>
+                        50% more affordable than traditional construction
+                        methods, making home ownership accessible to millions.
+                      </p>
+                    </div>
+
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                      </div>
+                      <h3>Rapid Deployment</h3>
+                      <p>
+                        From order to occupancy in weeks, not months, addressing
+                        housing needs with unprecedented speed.
+                      </p>
+                    </div>
+
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                      </div>
+                      <h3>Scalable Model</h3>
+                      <p>
+                        Adaptable designs for both urban centers and rural
+                        communities, scaling to meet diverse needs.
+                      </p>
+                    </div>
                   </div>
                 </div>
-
-                <!--<div class="model-actions">
-                                <a href="#" class="secondary-btn view-floorplan" data-model="studio">View Floorplan</a>
-                            </div>-->
               </div>
 
-              <div class="model-showcase">
-                <div class="model-image-slider">
-                  <div class="model-main-image">
-                    <img src="images/20ft3.jpeg" alt="Studio Container Home" />
+              <div class="panel-visual">
+                <div class="simple-illustration housing-illustration">
+                  <img
+                    src="images/containerhome.svg"
+                    alt="Container Home Illustration"
+                  />
+                  <div class="illustration-icon">
+                    <i class="fas fa-home"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Energy Solution Panel -->
+          <div class="solution-panel" id="energy-panel" data-index="1">
+            <div class="panel-container">
+              <div class="panel-content">
+                <div class="panel-heading">
+                  <h2 class="panel-title">Energy Crisis Solution</h2>
+                  <div class="panel-stat">
+                    <div class="stat-number">4</div>
+                    <div class="stat-suffix">Million+</div>
+                    <div class="stat-label">People Without Reliable Power</div>
+                  </div>
+                </div>
+
+                <div class="panel-description">
+                  <p>
+                    Our integrated solar solutions transform living standards
+                    across Togo, providing renewable, reliable energy to homes
+                    and communities independent of unstable grid infrastructure.
+                  </p>
+
+                  <div class="feature-cards">
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <i class="fas fa-solar-panel"></i>
+                      </div>
+                      <h3>Solar-Powered Homes</h3>
+                      <p>
+                        Every container includes integrated solar panels and
+                        battery storage for 24/7 reliable energy.
+                      </p>
+                    </div>
+
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                      </div>
+                      <h3>Cost-Effective Energy</h3>
+                      <p>
+                        Save up to 70% on energy costs compared to traditional
+                        grid connections and generators.
+                      </p>
+                    </div>
+
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <i class="fas fa-leaf"></i>
+                      </div>
+                      <h3>Sustainable Power</h3>
+                      <p>
+                        Clean, renewable energy that eliminates pollution and
+                        reduces carbon footprint.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel-visual">
+                <div class="simple-illustration energy-illustration">
+                  <img src="images/solar.png" alt="Solar Energy Illustration" />
+                  <div class="illustration-icon">
+                    <i class="fas fa-solar-panel"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Innovation Spaces Panel -->
+          <div class="solution-panel" id="innovation-panel" data-index="2">
+            <div class="panel-container">
+              <div class="panel-content">
+                <div class="panel-heading">
+                  <h2 class="panel-title">Innovation Spaces Solution</h2>
+                  <div class="panel-stat">
+                    <div class="stat-number">70</div>
+                    <div class="stat-suffix">%</div>
+                    <div class="stat-label">Innovation Gap Reduction</div>
+                  </div>
+                </div>
+
+                <div class="panel-description">
+                  <p>
+                    Our versatile container workspaces create affordable,
+                    connected environments for entrepreneurs and innovators,
+                    building a foundation for economic growth.
+                  </p>
+
+                  <div class="feature-cards">
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <i class="fas fa-building"></i>
+                      </div>
+                      <h3>Dedicated Innovation Hubs</h3>
+                      <p>
+                        Purpose-built coworking and innovation spaces designed
+                        for maximum collaboration and creativity.
+                      </p>
+                    </div>
+
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <i class="fas fa-rocket"></i>
+                      </div>
+                      <h3>Startup Support</h3>
+                      <p>
+                        Flexible spaces that grow with your business, from solo
+                        entrepreneurs to expanding teams.
+                      </p>
+                    </div>
+
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                      </div>
+                      <h3>Economic Growth</h3>
+                      <p>
+                        Community workspaces that foster local innovation, job
+                        creation, and economic development.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel-visual">
+                <div class="simple-illustration innovation-illustration">
+                  <img
+                    src="images/innovative.png"
+                    alt="Innovation Space Illustration"
+                  />
+                  <div class="illustration-icon">
+                    <i class="fas fa-lightbulb"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Financial Inclusion Panel -->
+          <div class="solution-panel" id="financial-panel" data-index="3">
+            <div class="panel-container">
+              <div class="panel-content">
+                <div class="panel-heading">
+                  <h2 class="panel-title">Financial Exclusion Solution</h2>
+                  <div class="panel-stat">
+                    <div class="stat-number">57</div>
+                    <div class="stat-suffix">%</div>
+                    <div class="stat-label">Unbanked Adults</div>
+                  </div>
+                </div>
+
+                <div class="panel-description">
+                  <p>
+                    Our innovative financing models break down traditional
+                    barriers to homeownership, creating accessible pathways to
+                    property ownership for all income levels.
+                  </p>
+
+                  <div class="feature-cards">
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <i class="fas fa-house-user"></i>
+                      </div>
+                      <h3>Accessible Homeownership</h3>
+                      <p>
+                        Flexible rent-to-own programs that build equity from day
+                        one, without traditional mortgage requirements.
+                      </p>
+                    </div>
+
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                      </div>
+                      <h3>Barrier Removal</h3>
+                      <p>
+                        No large down payments or complex banking history
+                        required, opening homeownership to the unbanked.
+                      </p>
+                    </div>
+
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <i class="fas fa-piggy-bank"></i>
+                      </div>
+                      <h3>Wealth Building</h3>
+                      <p>
+                        Turning housing expenses into asset ownership, creating
+                        generational wealth for families.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel-visual">
+                <div class="simple-illustration financial-illustration">
+                  <img
+                    src="images/financial.png"
+                    alt="Financial Access Illustration"
+                  />
+                  <div class="illustration-icon">
+                    <i class="fas fa-wallet"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Urbanization Panel -->
+          <div class="solution-panel" id="urbanization-panel" data-index="4">
+            <div class="panel-container">
+              <div class="panel-content">
+                <div class="panel-heading">
+                  <h2 class="panel-title">Urbanization Challenges Solution</h2>
+                  <div class="panel-stat">
+                    <div class="stat-number">50</div>
+                    <div class="stat-suffix">%</div>
+                    <div class="stat-label">Urban Population by 2030</div>
+                  </div>
+                </div>
+
+                <div class="panel-description">
+                  <p>
+                    Our container housing solutions provide the scalability and
+                    speed needed to accommodate Africa's rapid urbanization,
+                    creating sustainable, organized urban development.
+                  </p>
+
+                  <div class="feature-cards">
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <i class="fas fa-city"></i>
+                      </div>
+                      <h3>Efficient Urban Expansion</h3>
+                      <p>
+                        Rapidly deployable housing that allows cities to expand
+                        in an organized, planned manner.
+                      </p>
+                    </div>
+
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <i class="fas fa-home"></i>
+                      </div>
+                      <h3>Slum Prevention</h3>
+                      <p>
+                        Affordable, quality housing that prevents the formation
+                        of unplanned settlements and slums.
+                      </p>
+                    </div>
+
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <i class="fas fa-project-diagram"></i>
+                      </div>
+                      <h3>Modular Development</h3>
+                      <p>
+                        Stackable, adaptable designs that maximize limited urban
+                        space for high-density living.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel-visual">
+                <div class="simple-illustration urbanization-illustration">
+                  <img
+                    src="images/urbanization.svg"
+                    alt="Urban Development Illustration"
+                  />
+                  <div class="illustration-icon">
+                    <i class="fas fa-city"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Models Section -->
+      <section id="models" class="models">
+        <div class="container">
+          <h2 class="section-title">Our Container Living Spaces</h2>
+          <div class="models-intro">
+            <p>
+              Discover the perfect space designed for your lifestyle needs and
+              budget
+            </p>
+          </div>
+
+          <div class="models-tabs">
+            <div class="tab-nav">
+              <div class="tab-button active" data-model="studio">
+                <i class="fas fa-home"></i>
+                <span>Studio</span>
+              </div>
+              <div class="tab-button" data-model="big-studio">
+                <i class="fas fa-bath"></i>
+                <span>Big Studio</span>
+              </div>
+              <div class="tab-button" data-model="apartment">
+                <i class="fas fa-users"></i>
+                <span>Apartment</span>
+              </div>
+              <div class="tab-button" data-model="coworking">
+                <i class="fas fa-laptop"></i>
+                <span>Co-Working</span>
+              </div>
+            </div>
+
+            <div class="models-content">
+              <!-- Studio Model -->
+              <div class="model-panel active" id="studio-panel">
+                <div class="model-info">
+                  <div class="model-header">
+                    <h3>The Studio</h3>
+                    <div class="model-tag">Most Affordable</div>
+                  </div>
+                  <p class="model-subtitle">
+                    Compact & Efficient Living for One
+                  </p>
+
+                  <div class="model-specs">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">20m²</span>
+                        <span class="spec-label">Floor Area</span>
+                      </div>
+                    </div>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-bed"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">1 Person</span>
+                        <span class="spec-label">Capacity</span>
+                      </div>
+                    </div>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-shower"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">Shared</span>
+                        <span class="spec-label">Bathroom</span>
+                      </div>
+                    </div>
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-utensils"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">Shared</span>
+                        <span class="spec-label">Kitchen</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="model-description">
+                    <p>
+                      Our entry-level studio offers a comfortable and affordable
+                      living space perfect for individuals seeking their own
+                      private sanctuary. With shared bathroom and kitchen
+                      facilities, this model provides the perfect balance of
+                      privacy and community living at our most accessible price
+                      point.
+                    </p>
+                  </div>
+
+                  <div class="model-features">
+                    <div class="feature-tag">
+                      <i class="fas fa-bolt"></i> Solar Ready
+                    </div>
+                    <div class="feature-tag">
+                      <i class="fas fa-wifi"></i> WiFi Ready
+                    </div>
+                    <div class="feature-tag">
+                      <i class="fas fa-tint"></i> Water Harvesting
+                    </div>
+                    <div class="feature-tag">
+                      <i class="fas fa-leaf"></i> Eco Materials
+                    </div>
+                  </div>
+
+                  <!--<div class="model-actions">
+                                  <a href="#" class="secondary-btn view-floorplan" data-model="studio">View Floorplan</a>
+                              </div>-->
+                </div>
+
+                <div class="model-showcase">
+                  <div class="model-image-slider">
+                    <div class="model-main-image">
+                      <img
+                        src="images/20ft3.jpeg"
+                        alt="Studio Container Home"
+                      />
+                    </div>
+                    <div class="model-thumbnails">
+                      <div class="thumbnail active">
+                        <img src="images/20ft2.jpeg" alt="Studio Exterior" />
+                      </div>
+                      <div class="thumbnail">
+                        <img src="images/20ft1.jpeg" alt="Studio Interior" />
+                      </div>
+                      <div class="thumbnail">
+                        <img src="images/20ft3.jpeg" alt="Studio Bed Area" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Big Studio Model -->
+              <div class="model-panel" id="big-studio-panel">
+                <div class="model-info">
+                  <div class="model-header">
+                    <h3>The Big Studio</h3>
+                    <div class="model-tag">Independence</div>
+                  </div>
+                  <p class="model-subtitle">
+                    Complete Privacy & Comfort for One
+                  </p>
+
+                  <div class="model-specs">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">30m²</span>
+                        <span class="spec-label">Floor Area</span>
+                      </div>
+                    </div>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-bed"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">1 Person</span>
+                        <span class="spec-label">Capacity</span>
+                      </div>
+                    </div>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-shower"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">Private</span>
+                        <span class="spec-label">Bathroom</span>
+                      </div>
+                    </div>
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-utensils"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">Private</span>
+                        <span class="spec-label">Kitchen</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="model-description">
+                    <p>
+                      For those seeking complete independence, our Big Studio
+                      offers a fully self-contained living space with private
+                      kitchen and bathroom facilities. The thoughtfully designed
+                      layout maximizes space efficiency while providing all the
+                      comforts of a conventional home in a compact footprint.
+                    </p>
+                  </div>
+
+                  <div class="model-features">
+                    <div class="feature-tag">
+                      <i class="fas fa-bolt"></i> Solar Ready
+                    </div>
+                    <div class="feature-tag">
+                      <i class="fas fa-wifi"></i> WiFi Ready
+                    </div>
+                    <div class="feature-tag">
+                      <i class="fas fa-tint"></i> Water Harvesting
+                    </div>
+                    <!--<div class="feature-tag">
+                      <i class="fas fa-thermometer-half"></i> Climate Control
+                    </div>-->
+                  </div>
+
+                  <!--<div class="model-actions">
+                    <a
+                      href="#"
+                      class="secondary-btn view-floorplan"
+                      data-model="big-studio"
+                      >View Floorplan</a
+                    >
+                  </div>-->
+                </div>
+
+                <div class="model-showcase">
+                  <div class="model-image-slider">
+                    <div class="model-main-image">
+                      <img
+                        src="images/40ft2.jpeg"
+                        alt="Big Studio Container Home"
+                      />
+                    </div>
+                    <div class="model-thumbnails">
+                      <div class="thumbnail active">
+                        <img
+                          src="images/40ft1.jpeg"
+                          alt="Big Studio Exterior"
+                        />
+                      </div>
+                      <div class="thumbnail">
+                        <img
+                          src="images/40ft3.jpeg"
+                          alt="Big Studio Interior"
+                        />
+                      </div>
+                      <div class="thumbnail">
+                        <img src="images/40ft2.jpeg" alt="Big Studio Kitchen" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Apartment Model -->
+              <div class="model-panel" id="apartment-panel">
+                <div class="model-info">
+                  <div class="model-header">
+                    <h3>The Apartment</h3>
+                    <div class="model-tag">Family Living</div>
+                  </div>
+                  <p class="model-subtitle">
+                    Spacious Living for Couples & Families
+                  </p>
+
+                  <div class="model-specs">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">60m²</span>
+                        <span class="spec-label">Floor Area</span>
+                      </div>
+                    </div>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-users"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">2-4 People</span>
+                        <span class="spec-label">Capacity</span>
+                      </div>
+                    </div>
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-door-open"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">1-2 Bedrooms</span>
+                        <span class="spec-label">Layout</span>
+                      </div>
+                    </div>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-couch"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">Living Room</span>
+                        <span class="spec-label">Common Area</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="model-description">
+                    <p>
+                      Our most spacious residential option, The Apartment
+                      combines multiple container units to create a modern
+                      family home. With separate bedrooms, a dedicated living
+                      area, and complete kitchen facilities, this model provides
+                      the space and functionality needed for families or couples
+                      who want room to grow.
+                    </p>
+                  </div>
+
+                  <div class="model-features">
+                    <div class="feature-tag">
+                      <i class="fas fa-solar-panel"></i> Full Solar System
+                    </div>
+                    <div class="feature-tag">
+                      <i class="fas fa-wifi"></i> WiFi Ready
+                    </div>
+                    <div class="feature-tag">
+                      <i class="fas fa-tint"></i> Water Harvesting
+                    </div>
+                    <!--<div class="feature-tag">
+                      <i class="fas fa-expand"></i> Expandable
+                    </div>-->
+                  </div>
+
+                  <!--<div class="model-actions">
+                    <a
+                      href="#"
+                      class="secondary-btn view-floorplan"
+                      data-model="apartment"
+                      >View Floorplan</a
+                    >
+                  </div>-->
+                </div>
+
+                <div class="model-showcase">
+                  <div class="model-image-slider">
+                    <div class="model-main-image">
+                      <img
+                        src="images/apartment2.jpg"
+                        alt="Apartment Container Home"
+                      />
+                    </div>
+                    <div class="model-thumbnails">
+                      <div class="thumbnail active">
+                        <img
+                          src="images/apartment3.jpg"
+                          alt="Apartment Exterior"
+                        />
+                      </div>
+                      <div class="thumbnail">
+                        <img
+                          src="images/apartment4.jpg"
+                          alt="Apartment Living Room"
+                        />
+                      </div>
+                      <div class="thumbnail">
+                        <img
+                          src="images/apartment5.jpg"
+                          alt="Apartment Kitchen"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Co-Working Space Model -->
+              <div class="model-panel" id="coworking-panel">
+                <div class="model-info">
+                  <div class="model-header">
+                    <h3>The Co-Working Space</h3>
+                    <div class="model-tag">Productivity</div>
+                  </div>
+                  <p class="model-subtitle">
+                    Professional Environment for Entrepreneurs
+                  </p>
+
+                  <div class="model-specs">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">100m²+</span>
+                        <span class="spec-label">Floor Area</span>
+                      </div>
+                    </div>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-users"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">50+ People</span>
+                        <span class="spec-label">Capacity</span>
+                      </div>
+                    </div>
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-chalkboard"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">Meeting Room</span>
+                        <span class="spec-label">Included</span>
+                      </div>
+                    </div>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-coffee"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">Kitchenette</span>
+                        <span class="spec-label">Included</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="model-description">
+                    <p>
+                      Transform how you work with our dedicated co-working
+                      container. Designed specifically for entrepreneurs, remote
+                      workers, and small teams, this model provides a
+                      professional workspace with high-speed connectivity,
+                      collaborative areas, and everything needed for peak
+                      productivity and innovation.
+                    </p>
+                  </div>
+
+                  <div class="model-features">
+                    <div class="feature-tag">
+                      <i class="fas fa-bolt"></i> Backup Power
+                    </div>
+                    <div class="feature-tag">
+                      <i class="fas fa-wifi"></i> Fast Internet
+                    </div>
+                    <div class="feature-tag">
+                      <i class="fas fa-lock"></i> Security System
+                    </div>
+                    <div class="feature-tag">
+                      <i class="fas fa-laptop"></i> Workstations
+                    </div>
+                  </div>
+
+                  <!--<div class="model-actions">
+                    <a
+                      href="#"
+                      class="secondary-btn view-floorplan"
+                      data-model="coworking"
+                      >View Floorplan</a
+                    >
+                  </div>-->
+                </div>
+
+                <div class="model-showcase">
+                  <div class="model-image-slider">
+                    <div class="model-main-image">
+                      <img
+                        src="images/workingspace1.jpg"
+                        alt="Co-Working Container Space"
+                      />
+                    </div>
+                    <div class="model-thumbnails">
+                      <div class="thumbnail active">
+                        <img
+                          src="images/workingspace2.jpg"
+                          alt="Co-Working Exterior"
+                        />
+                      </div>
+                      <div class="thumbnail">
+                        <img
+                          src="images/workingspace3.jpg"
+                          alt="Co-Working Interior"
+                        />
+                      </div>
+                      <div class="thumbnail">
+                        <img
+                          src="images/workingspace4.jpeg"
+                          alt="Co-Working Meeting Area"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- The Experience Section -->
+      <section id="experience" class="experience">
+        <div class="container">
+          <div class="experience-grid">
+            <div class="experience-content">
+              <h2 class="section-title left-aligned">The TACH Experience</h2>
+              <p class="lead">
+                TACH offers more than just affordable homes, it creates living
+                environments that empower future builders and creators to
+                unleash their full creative and innovative potential, by giving
+                them all the tools and equipment they need.
+              </p>
+              <div class="experience-features">
+                <div class="feature-item" data-scroll>
+                  <div class="feature-icon">
+                    <i class="fas fa-tools"></i>
+                  </div>
+                  <div class="feature-text">
+                    <h3>Affordability</h3>
+                    <p>Up to 50% cheaper than traditional construction.</p>
+                  </div>
+                </div>
+                <div class="feature-item" data-scroll>
+                  <div class="feature-icon">
+                    <i class="fas fa-leaf"></i>
+                  </div>
+                  <div class="feature-text">
+                    <h3>Eco-Friendly Living</h3>
+                    <p>
+                      Solar-powered homes with rainwater harvesting systems that
+                      reduce your ecological footprint while saving on utility
+                      costs.
+                    </p>
+                  </div>
+                </div>
+                <div class="feature-item" data-scroll>
+                  <div class="feature-icon">
+                    <i class="fas fa-home"></i>
+                  </div>
+                  <div class="feature-text">
+                    <h3>Urban Development</h3>
+                    <p>
+                      Helps cities grow sustainably while preventing slum
+                      expansion.
+                    </p>
+                  </div>
+                </div>
+                <div class="feature-item" data-scroll>
+                  <div class="feature-icon">
+                    <i class="fas fa-users"></i>
+                  </div>
+                  <div class="feature-text">
+                    <h3>Community Focus</h3>
+                    <p>
+                      Built-in shared spaces foster connection and collaboration
+                      within TACH communities, creating networks of like-minded
+                      neighbors.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="experience-showcase">
+              <div class="showcase-image main">
+                <img src="images/buildingplan3.jpeg" alt="TACH Home Exterior" />
+              </div>
+              <div class="showcase-image secondary">
+                <img src="images/buildingplan2.jpeg" alt="TACH Home Interior" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- For Who Section -->
+      <section id="for-who" class="for-who">
+        <div class="container">
+          <h2 class="section-title">For Who</h2>
+          <p class="section-intro">
+            Our homes are designed for everyone, from young professionals to
+            growing families.
+          </p>
+
+          <div class="personas">
+            <div class="persona-tabs">
+              <div class="persona-tab active" data-target="young-professionals">
+                <div class="persona-icon"><i class="fas fa-briefcase"></i></div>
+                <h3>Young Professionals & Students</h3>
+              </div>
+              <div class="persona-tab" data-target="families">
+                <div class="persona-icon"><i class="fas fa-home"></i></div>
+                <h3>Families</h3>
+              </div>
+              <div class="persona-tab" data-target="entrepreneurs">
+                <div class="persona-icon"><i class="fas fa-lightbulb"></i></div>
+                <h3>Entrepreneurs</h3>
+              </div>
+              <!--<div class="persona-tab" data-target="investors">
+                <div class="persona-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Investors</h3>
+              </div>-->
+            </div>
+
+            <div class="persona-content">
+              <div class="persona-panel active" id="young-professionals">
+                <div class="persona-image">
+                  <img src="images/student.jpg" alt="Young Professional" />
+                </div>
+                <div class="persona-description">
+                  <h3>Affordable First Homes</h3>
+                  <p>
+                    Start your independent journey with a stylish, modern home
+                    that doesn't break the bank. Our studios and bid studios
+                    models are perfect for young professionals and students
+                    looking to invest in their future while maintaining
+                    financial flexibility.
+                  </p>
+                  <ul class="persona-benefits">
+                    <li><i class="fas fa-check"></i> Quick move-in process</li>
+                    <li>
+                      <i class="fas fa-check"></i> Built-in networking
+                      opportunities
+                    </li>
+                    <li><i class="fas fa-check"></i> Reduced utility costs</li>
+                  </ul>
+                  <!--<a href="#contact" class="primary-btn">Find Your Home</a>-->
+                </div>
+              </div>
+
+              <div class="persona-panel" id="families">
+                <div class="persona-image">
+                  <img src="images/family.jpg" alt="Family" />
+                </div>
+                <div class="persona-description">
+                  <h3>Room to Grow</h3>
+                  <p>
+                    Our multi-container family homes provide the space you need
+                    at a fraction of traditional housing costs. With the rent to
+                    own model, you can purchase an units via monthly
+                    installments.
+                  </p>
+                  <ul class="persona-benefits">
+                    <li>
+                      <i class="fas fa-check"></i> Multi bedroom configurations
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i> Safe community environments
+                    </li>
+                    <li><i class="fas fa-check"></i> Rent To Own Model</li>
+                    <li>
+                      <i class="fas fa-check"></i> Family friendly outdoor
+                      spaces
+                    </li>
+                  </ul>
+                  <!--<a href="#contact" class="primary-btn">Find Your Home</a>-->
+                </div>
+              </div>
+
+              <div class="persona-panel" id="entrepreneurs">
+                <div class="persona-image">
+                  <img src="images/creators.jpg" alt="Entrepreneur" />
+                </div>
+                <div class="persona-description">
+                  <h3>Work & Live Spaces</h3>
+                  <p>
+                    Designed for the future builders and creators, our workspace
+                    models combine comfortable living quarters with professional
+                    work areas. Launch your business, network and connect in a
+                    space that inspires creativity and productivity.
+                  </p>
+                  <ul class="persona-benefits">
+                    <li>
+                      <i class="fas fa-check"></i> Dedicated workspace areas
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i> High speed internet ready
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i> Networking with like minded
+                      professionals
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i> Professional meeting spaces
+                    </li>
+                  </ul>
+                  <!--<a href="#contact" class="primary-btn">Find Your Home</a>-->
+                </div>
+              </div>
+
+              <!--<div class="persona-panel" id="investors">
+                <div class="persona-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1551836022-aaedcc351d7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                    alt="Investor"
+                  />
+                </div>
+                <div class="persona-description">
+                  <h3>Investment Opportunities</h3>
+                  <p>
+                    TACH homes offer exceptional rental yields and appreciation
+                    potential. Our turnkey rental management service makes it easy
+                    to generate passive income while contributing to Africa's
+                    sustainable housing revolution.
+                  </p>
+                  <ul class="persona-benefits">
+                    <li><i class="fas fa-check"></i> High ROI potential</li>
+                    <li>
+                      <i class="fas fa-check"></i> Full rental management services
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i> Multi-unit purchase options
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i> Sustainable investment
+                      credentials
+                    </li>
+                  </ul>
+                  <a href="#contact" class="primary-btn">Investment Details</a>
+                </div>
+              </div>-->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Impact Section -->
+      <section id="impact" class="impact">
+        <div class="container">
+          <h2 class="section-title">Our Goals</h2>
+          <div class="impact-stats">
+            <div class="stat-item" data-scroll>
+              <div class="stat-number">
+                <span class="counter" data-target="75">0</span>
+                <span class="plus">+</span>
+              </div>
+              <h3>Homes Building</h3>
+              <!--<div class="stat-bar">
+                <div class="stat-progress" style="width: 75%"></div>
+              </div>-->
+            </div>
+            <div class="stat-item" data-scroll>
+              <div class="stat-number">
+                <span class="counter" data-target="120">0</span>
+                <span class="plus">+</span>
+              </div>
+              <h3>Jobs Creation</h3>
+              <!--<div class="stat-bar">
+                <div class="stat-progress" style="width: 60%"></div>
+              </div>-->
+            </div>
+            <div class="stat-item" data-scroll>
+              <div class="stat-number">
+                <span class="counter" data-target="2500">0</span>
+                <span class="unit">m²</span>
+              </div>
+              <h3>Living Space</h3>
+              <!--<div class="stat-bar">
+                <div class="stat-progress" style="width: 85%"></div>
+              </div>-->
+            </div>
+            <div class="stat-item" data-scroll>
+              <div class="stat-number">
+                <span class="counter" data-target="15000">0</span>
+                <span class="unit">kWh</span>
+              </div>
+              <h3>Solar Energy</h3>
+              <!--<div class="stat-bar">
+                <div class="stat-progress" style="width: 90%"></div>
+              </div>-->
+            </div>
+          </div>
+
+          <div class="impact-stories">
+            <h3 class="impact-stories-title">Our Vision</h3>
+            <div class="story-carousel">
+              <div class="story-slide active">
+                <div class="story-image">
+                  <img src="images/tach.svg" alt="TACHS" />
+                </div>
+                <div class="story-text">
+                  <p>
+                    TACH envisions a future where every Togolese family has
+                    access to a safe, modern, and affordable home built
+                    sustainably and designed for dignity. We aim to redefine
+                    housing in West Africa through innovation, creating vibrant
+                    off grid communities that not only provide homes but also
+                    empower residents through shared co-working spaces, digital
+                    tools, and support for entrepreneurship. By combining
+                    housing with opportunity, we help people live, work, and
+                    thrive in one place.
+                  </p>
+                  <span class="story-author"
+                    >- TACHS., Affordable Homes. Creative Hubs. Limitless
+                    Possibilities</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer" id="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <img src="images/tach500x500.svg" alt="TACH" />
+              <p class="footer-tagline">
+                Affordable Homes. Creative Hubs. Limitless Possibilities
+              </p>
+            </div>
+            <div class="footer-links">
+              <div class="footer-column">
+                <h3>Models</h3>
+                <ul>
+                  <li><a href="#models">Studio</a></li>
+                  <li><a href="#models">Big Studio</a></li>
+                  <li><a href="#models">Apartment</a></li>
+                  <li><a href="#models">Workspace</a></li>
+                </ul>
+              </div>
+              <div class="footer-column">
+                <h3>Company</h3>
+                <ul>
+                  <li><a href="#crisis">The Problems</a></li>
+                  <li><a href="#solution">Our Solutions</a></li>
+                  <li><a href="#impact">Our Impact</a></li>
+                  <li><a href="#experience">The Experience</a></li>
+                  <!-- <li><a href="#">Privacy Policy</a></li> -->
+                </ul>
+              </div>
+              <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Lomé, Togo</p>
+                <p>
+                  <i class="fas fa-phone"></i> +228 97783864 / +31 618874429
+                </p>
+                <p><i class="fas fa-envelope"></i> afriqxpress@gmail.com</p>
+              </div>
+            </div>
+            <!--<div class="footer-newsletter">
+              <h3>Stay Updated</h3>
+              <p>Subscribe to our newsletter for the latest news and updates.</p>
+              <form class="newsletter-form">
+                <input type="email" placeholder="Your Email Address" required />
+                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+              </form>
+              <div class="social-links">
+                          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+            </div>-->
+          </div>
+          <div class="copyright">
+            <p>
+              &copy; 2025 TACHS - Togo Affordable Container Homes. All rights
+              reserved.
+            </p>
+            <p class="footer-attribution">
+              Sustainably built with <i class="fas fa-heart"></i> in Togo
+            </p>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Scroll To Top Button -->
+      <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+    <!-- mobilr version -->
+    <div id="mobile-version">
+      <!-- Dots -->
+      <div class="dots" id="dotsContainer"></div>
+
+      <!-- Scrollable full-screen sections -->
+      <div class="scroll-container" id="scrollContainer">
+        <section id="hero" class="hero fullscreen section">
+          <div class="hero-content">
+            <h1 class="hero-title animate-text">
+              <span class="line" data-i18n="hero.title">TOGO AFFORDABLE</span>
+              <span class="line accent">CONTAINER HOME & SPACE</span>
+              <span class="line tach">TACHS</span>
+            </h1>
+            <p
+              class="hero-subtitle animate-text-delay"
+              data-i18n="hero.subtitle"
+            >
+              We Ensures affordability while promoting innovation and
+              environmental sustainability.
+            </p>
+            <div class="hero-cta animate-button">
+              <a href="#crisis" class="primary-btn" data-i18n="hero.discoverHow"
+                >Discover How</a
+              >
+              <a
+                href="#living-spaces"
+                class="secondary-btn"
+                data-i18n="hero.exploreModels"
+                >Explore Models</a
+              >
+            </div>
+          </div>
+          <div class="hero-background"></div>
+        </section>
+        <!-- ## the problem section ##-->
+        <div class="section" id="crisis">
+          <div class="mobile-carousel">
+            <div class="mobile-carousel-inner">
+              <!-- house deficit -->
+              <div class="mobile-carousel-item">
+                <div class="inner-carousel-item">
+                  <h2 class="section-title">Housing Crisis</h2>
+                  <p class="section-intro">
+                    Discover why TACH solutions are more vital than ever
+                  </p>
+                  <div class="crisis-item">
+                    <h3 class="slide-title">Housing Shortage</h3>
+                    <div class="slide-stat">
+                      <div class="stat-number">500<span>Thousand+</span></div>
+                      <div class="stat-caption">
+                        Housing unit deficit in TOGO
+                      </div>
+                    </div>
+                    <p class="slide-description">
+                      In Togo and across West Africa, there is a severe shortage
+                      of affordable housing, with hundreds of thousands of
+                      families unable to access safe, decent homes due to high
+                      construction costs and limited financing options
+                    </p>
+                    <h4 class="">The Impacts</h4>
+                    <div class="model-features">
+                      <div class="feature-tag">
+                        Overcrowded living conditions
+                      </div>
+                      <div class="feature-tag">
+                        Growth of unplanned settlements
+                      </div>
+                      <div class="feature-tag">
+                        Sanitation and health challenges
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- high cost of construction -->
+              <div class="mobile-carousel-item">
+                <div class="inner-carousel-item">
+                  <h2 class="section-title">Housing Crisis</h2>
+                  <p class="section-intro">
+                    Discover why TACH solutions are more vital than ever
+                  </p>
+                  <div class="crisis-item">
+                    <h3 class="slide-title">High Cost of Construction</h3>
+                    <div class="slide-stat">
+                      <div class="stat-number">40<span>%</span></div>
+                      <div class="stat-caption">
+                        Higher construction costs compared to global averages
+                      </div>
+                    </div>
+                    <p class="slide-description">
+                      Traditional building methods are expensive and slow,
+                      leaving middle and low-income earners unable to own homes
+                    </p>
+                    <h4 class="">The Impacts</h4>
+                    <div class="model-features">
+                      <div class="feature-tag">
+                        Housing unaffordable for middle-income
+                      </div>
+                      <div class="feature-tag">
+                        Extended construction timelines
+                      </div>
+                      <div class="feature-tag">
+                        Compromised quality and safety
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Energy Unreliability -->
+              <div class="mobile-carousel-item">
+                <div class="inner-carousel-item">
+                  <h2 class="section-title">Housing Crisis</h2>
+                  <p class="section-intro">
+                    Discover why TACH solutions are more vital than ever
+                  </p>
+                  <div class="crisis-item">
+                    <h3 class="slide-title">Energy Unreliability</h3>
+                    <div class="slide-stat">
+                      <div class="stat-number">4<span>Million+</span></div>
+                      <div class="stat-caption">
+                        Togolese without reliable access to electricity
+                      </div>
+                    </div>
+                    <p class="slide-description">
+                      Across the continent, unreliable power grids disrupt daily
+                      life and economic activity. Frequent outages force
+                      households and businesses to rely on expensive, polluting
+                      generators or go without power altogether
+                    </p>
+                    <h4 class="">The Impacts</h4>
+                    <div class="model-features">
+                      <div class="feature-tag">
+                        Limited productivity and education
+                      </div>
+                      <div class="feature-tag">
+                        High energy costs for basic needs
+                      </div>
+                      <div class="feature-tag">
+                        Environmental damage from alternative fuels
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Lack of Innovation Spaces -->
+              <div class="mobile-carousel-item">
+                <div class="inner-carousel-item">
+                  <h2 class="section-title">Housing Crisis</h2>
+                  <p class="section-intro">
+                    Discover why TACH solutions are more vital than ever
+                  </p>
+                  <div class="crisis-item">
+                    <h3 class="slide-title">Lack of Innovation Spaces</h3>
+                    <div class="slide-stat">
+                      <div class="stat-number">75<span>%</span></div>
+                      <div class="stat-caption">
+                        Of startups struggle to find suitable workspaces
+                      </div>
+                    </div>
+                    <p class="slide-description">
+                      Entrepreneurial ecosystem is hindered by a scarcity of
+                      innovative workspaces. Young entrepreneurs and creators
+                      lack accessible, affordable workspaces with the tools and
+                      connectivity needed to develop ideas, build businesses,
+                      and thrive in the digital economy
+                    </p>
+                    <h4 class="">The Impacts</h4>
+                    <div class="model-features">
+                      <div class="feature-tag">
+                        Constrained entrepreneurial growth
+                      </div>
+                      <div class="feature-tag">
+                        Limited collaboration opportunities
+                      </div>
+                      <div class="feature-tag">
+                        Slower technology adoption and innovation
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Financial Exclusion -->
+              <div class="mobile-carousel-item">
+                <div class="inner-carousel-item">
+                  <h2 class="section-title">Housing Crisis</h2>
+                  <p class="section-intro">
+                    Discover why TACH solutions are more vital than ever
+                  </p>
+                  <div class="crisis-item">
+                    <h3 class="slide-title">Financial Exclusion</h3>
+                    <div class="slide-stat">
+                      <div class="stat-number">80<span>%</span></div>
+                      <div class="stat-caption">
+                        Of Togolese lack access to mortgage financing
+                      </div>
+                    </div>
+                    <p class="slide-description">
+                      Traditional housing finance remains out of reach for most
+                      Togolese. High interest rates, strict collateral
+                      requirements, and short loan terms create insurmountable
+                      barriers to homeownership for working families
+                    </p>
+                    <h4 class="">The Impacts</h4>
+                    <div class="model-features">
+                      <div class="feature-tag">
+                        Generational wealth inequality
+                      </div>
+                      <div class="feature-tag">Prolonged rental dependence</div>
+                      <div class="feature-tag">
+                        Limited housing market development
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Urbanization Pressure -->
+              <div class="mobile-carousel-item">
+                <div class="inner-carousel-item">
+                  <h2 class="section-title">Housing Crisis</h2>
+                  <p class="section-intro">
+                    Discover why TACH solutions are more vital than ever
+                  </p>
+                  <div class="crisis-item">
+                    <h3 class="slide-title">Urbanization Pressure</h3>
+                    <div class="slide-stat">
+                      <div class="stat-number">50<span>%</span></div>
+                      <div class="stat-caption">
+                        Of Togolese will live in cities by 2030
+                      </div>
+                    </div>
+                    <p class="slide-description">
+                      TOGO is experiencing a fast urbanization rate. Cities
+                      struggle to accommodate this growth, leading to
+                      infrastructure strain, environmental degradation, and a
+                      widening gap between housing supply and demand
+                    </p>
+                    <h4 class="">The Impacts</h4>
+                    <div class="model-features">
+                      <div class="feature-tag">
+                        Expanding informal settlements
+                      </div>
+                      <div class="feature-tag">
+                        Overwhelmed urban infrastructure
+                      </div>
+                      <div class="feature-tag">
+                        Environmental and social pressures
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-carousel-controls">
+              <div class="mobile-carousel-arrow prev">
+                <i class="fas fa-arrow-left-long"></i>
+              </div>
+              <div class="mobile-carousel-arrow next">
+                <i class="fas fa-arrow-right-long"></i>
+              </div>
+            </div>
+          </div>
+          <div class="crisis-background mobile-background"></div>
+        </div>
+        <!-- ## solution section ## -->
+        <div class="section solution-section">
+          <div class="mobile-carousel">
+            <div class="mobile-carousel-inner">
+              <div class="mobile-carousel-item">
+                <div class="inner-carousel-item">
+                  <h2 class="section-title">
+                    Solutions for Housing Challenges
+                  </h2>
+                  <p class="section-intro">
+                    TACH provides an innovative and scalable solution to the
+                    housing and workspace crisis in Togo by leveraging
+                    affordable, modular container homes and innovative
+                    workspaces powered by renewable energy
+                  </p>
+                  <div class="crisis-item">
+                    <h3 class="slide-title">Housing Deficit Solution</h3>
+                    <div class="slide-stat">
+                      <div class="stat-number">500<span>Thousands+</span></div>
+                      <div class="stat-caption">Housing Unit Shortage</div>
+                    </div>
+                    <p class="slide-description">
+                      TACH's container homes are reimagining affordable housing
+                      across Africa, addressing the critical shortage with
+                      modular, sustainable solutions that deploy rapidly and
+                      scale efficiently.
+                    </p>
+                    <div class="mobile-feature-cards">
+                      <div class="mobile-feature-card">
+                        <h3>Affordable Housing</h3>
+                        <p>
+                          50% more affordable than traditional construction
+                          methods, making home ownership accessible to millions.
+                        </p>
+                      </div>
+
+                      <div class="mobile-feature-card">
+                        <h3>Rapid Deployment</h3>
+                        <p>
+                          From order to occupancy in weeks, not months,
+                          addressing housing needs with unprecedented speed.
+                        </p>
+                      </div>
+
+                      <div class="mobile-feature-card">
+                        <h3>Scalable Model</h3>
+                        <p>
+                          Adaptable designs for both urban centers and rural
+                          communities, scaling to meet diverse needs.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--solution for enrgy unreliability -->
+              <div class="mobile-carousel-item">
+                <div class="inner-carousel-item">
+                  <h2 class="section-title">
+                    Solutions for Housing Challenges
+                  </h2>
+                  <p class="section-intro">
+                    TACH provides an innovative and scalable solution to the
+                    housing and workspace crisis in Togo by leveraging
+                    affordable, modular container homes and innovative
+                    workspaces powered by renewable energy
+                  </p>
+                  <div class="crisis-item">
+                    <h3 class="slide-title">Energy Crisis Solution</h3>
+                    <div class="slide-stat">
+                      <div class="stat-number">4<span>Million+</span></div>
+                      <div class="stat-caption">
+                        People Without Reliable Power
+                      </div>
+                    </div>
+                    <p class="slide-description">
+                      Our integrated solar solutions transform living standards
+                      across Togo, providing renewable, reliable energy to homes
+                      and communities independent of unstable grid
+                      infrastructure.
+                    </p>
+                    <div class="mobile-feature-cards">
+                      <div class="mobile-feature-card">
+                        <h3>Solar-Powered Homes</h3>
+                        <p>
+                          integrated solar panels and battery storage for 24/7
+                          reliable energy.
+                        </p>
+                      </div>
+
+                      <div class="mobile-feature-card">
+                        <h3>Cost-Effective Energy</h3>
+                        <p>
+                          Save up to 70% on energy costs compared to traditional
+                          grid connections and generators.
+                        </p>
+                      </div>
+
+                      <div class="mobile-feature-card">
+                        <h3>Sustainable Power</h3>
+                        <p>
+                          Clean, renewable energy that eliminates pollution and
+                          reduces carbon footprint.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- solution for innovation hubs -->
+              <div class="mobile-carousel-item">
+                <div class="inner-carousel-item">
+                  <h2 class="section-title">
+                    Solutions for Housing Challenges
+                  </h2>
+                  <p class="section-intro">
+                    TACH provides an innovative and scalable solution to the
+                    housing and workspace crisis in Togo by leveraging
+                    affordable, modular container homes and innovative
+                    workspaces powered by renewable energy
+                  </p>
+                  <div class="crisis-item">
+                    <h3 class="slide-title">Innovation Spaces Solution</h3>
+                    <div class="slide-stat">
+                      <div class="stat-number">70<span>%</span></div>
+                      <div class="stat-caption">Innovation Gap Reduction</div>
+                    </div>
+                    <p class="slide-description">
+                      Our versatile container workspaces create affordable,
+                      connected environments for entrepreneurs and innovators,
+                      building a foundation for economic growth.
+                    </p>
+                    <div class="mobile-feature-cards">
+                      <div class="mobile-feature-card">
+                        <h3>Dedicated Innovation Hubs</h3>
+                        <p>
+                          Purpose-built coworking and innovation spaces designed
+                          for maximum collaboration and creativity.
+                        </p>
+                      </div>
+
+                      <div class="mobile-feature-card">
+                        <h3>Startup Support</h3>
+                        <p>
+                          Flexible spaces that grow with your business, from
+                          solo entrepreneurs to expanding teams.
+                        </p>
+                      </div>
+
+                      <div class="mobile-feature-card">
+                        <h3>Economic Growth</h3>
+                        <p>
+                          Community workspaces that foster local innovation, job
+                          creation, and economic development.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- solution for financial exclusion -->
+              <div class="mobile-carousel-item">
+                <div class="inner-carousel-item">
+                  <h2 class="section-title">
+                    Solutions for Housing Challenges
+                  </h2>
+                  <p class="section-intro">
+                    TACH provides an innovative and scalable solution to the
+                    housing and workspace crisis in Togo by leveraging
+                    affordable, modular container homes and innovative
+                    workspaces powered by renewable energy
+                  </p>
+                  <div class="crisis-item">
+                    <h3 class="slide-title">Financial Exclusion Solution</h3>
+                    <div class="slide-stat">
+                      <div class="stat-number">57<span>%</span></div>
+                      <div class="stat-caption">Unbanked Adults</div>
+                    </div>
+                    <p class="slide-description">
+                      Our innovative financing models break down traditional
+                      barriers to homeownership, creating accessible pathways to
+                      property ownership for all income levels.
+                    </p>
+                    <div class="mobile-feature-cards">
+                      <div class="mobile-feature-card">
+                        <h3>Accessible Homeownership</h3>
+                        <p>
+                          Flexible rent-to-own programs that build equity from
+                          day one, without traditional mortgage requirements.
+                        </p>
+                      </div>
+
+                      <div class="mobile-feature-card">
+                        <h3>Barrier Removal</h3>
+                        <p>
+                          No large down payments or complex banking history
+                          required, opening homeownership to the unbanked.
+                        </p>
+                      </div>
+
+                      <div class="mobile-feature-card">
+                        <h3>Wealth Building</h3>
+                        <p>
+                          Turning housing expenses into asset ownership,
+                          creating generational wealth for families.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  solution for urbanization -->
+              <div class="mobile-carousel-item">
+                <div class="inner-carousel-item">
+                  <h2 class="section-title">
+                    Solutions for Housing Challenges
+                  </h2>
+                  <p class="section-intro">
+                    TACH provides an innovative and scalable solution to the
+                    housing and workspace crisis in Togo by leveraging
+                    affordable, modular container homes and innovative
+                    workspaces powered by renewable energy
+                  </p>
+                  <div class="crisis-item">
+                    <h3 class="slide-title">
+                      Urbanization Challenges Solution
+                    </h3>
+                    <div class="slide-stat">
+                      <div class="stat-number">50<span>%</span></div>
+                      <div class="stat-caption">
+                        Urban Population by 2030 Shortage
+                      </div>
+                    </div>
+                    <p class="slide-description">
+                      Our container housing solutions provide the scalability
+                      and speed needed to accommodate Africa's rapid
+                      urbanization, creating sustainable, organized urban
+                      development.
+                    </p>
+                    <div class="mobile-feature-cards">
+                      <div class="mobile-feature-card">
+                        <h3>Efficient Urban Expansion</h3>
+                        <p>
+                          Rapidly deployable housing that allows cities to
+                          expand in an organized, planned manner.
+                        </p>
+                      </div>
+
+                      <div class="mobile-feature-card">
+                        <h3>Slum Prevention</h3>
+                        <p>
+                          Affordable, quality housing that prevents the
+                          formation of unplanned settlements and slums.
+                        </p>
+                      </div>
+
+                      <div class="mobile-feature-card">
+                        <h3>Modular Development</h3>
+                        <p>
+                          Stackable, adaptable designs that maximize limited
+                          urban space for high-density living.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-carousel-controls">
+              <div class="mobile-carousel-arrow prev">
+                <i class="fas fa-arrow-left-long"></i>
+              </div>
+              <div class="mobile-carousel-arrow next">
+                <i class="fas fa-arrow-right-long"></i>
+              </div>
+            </div>
+          </div>
+          <div class="solution-background mobile-background"></div>
+        </div>
+        <!-- container living spaces -->
+        <div class="section" id="living-spaces">
+          <div class="mobile-carousel">
+            <div class="mobile-carousel-inner">
+              <div class="mobile-carousel-item">
+                <h2 class="section-title">Our Container Living Spaces</h2>
+                <p class="section-intro">
+                  Discover the perfect space designed for your lifestyle needs
+                  and budget.
+                </p>
+                <div class="crisis-item">
+                  <h3 class="slide-title">The Studio</h3>
+                  <div class="slide-stat">
+                    <div class="stat-caption">
+                      Compact & Efficient Living for One
+                    </div>
+                  </div>
+                  <div class="model-specs">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">20m²</span>
+                        <span class="spec-label">Floor Area</span>
+                      </div>
+                    </div>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-bed"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">1 Person</span>
+                        <span class="spec-label">Capacity</span>
+                      </div>
+                    </div>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-shower"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">Shared</span>
+                        <span class="spec-label">Bathroom</span>
+                      </div>
+                    </div>
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-utensils"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">Shared</span>
+                        <span class="spec-label">Kitchen</span>
+                      </div>
+                    </div>
                   </div>
                   <div class="model-thumbnails">
-                    <div class="thumbnail active">
+                    <div class="thumbnail">
                       <img src="images/20ft2.jpeg" alt="Studio Exterior" />
                     </div>
                     <div class="thumbnail">
@@ -961,95 +2297,56 @@
                   </div>
                 </div>
               </div>
-            </div>
-
-            <!-- Big Studio Model -->
-            <div class="model-panel" id="big-studio-panel">
-              <div class="model-info">
-                <div class="model-header">
-                  <h3>The Big Studio</h3>
-                  <div class="model-tag">Independence</div>
-                </div>
-                <p class="model-subtitle">Complete Privacy & Comfort for One</p>
-
-                <div class="model-specs">
-                  <div class="spec-item">
-                    <div class="spec-icon">
-                      <i class="fas fa-expand-arrows-alt"></i>
-                    </div>
-                    <div class="spec-detail">
-                      <span class="spec-value">30m²</span>
-                      <span class="spec-label">Floor Area</span>
+              <!-- big studio space -->
+              <div class="mobile-carousel-item">
+                <h2 class="section-title">Our Container Living Spaces</h2>
+                <p class="section-intro">
+                  Discover the perfect space designed for your lifestyle needs
+                  and budget.
+                </p>
+                <div class="crisis-item">
+                  <h3 class="slide-title">The Big Studio</h3>
+                  <div class="slide-stat">
+                    <div class="stat-caption">
+                      Complete Privacy & Comfort for One
                     </div>
                   </div>
-                  <div class="spec-item">
-                    <div class="spec-icon"><i class="fas fa-bed"></i></div>
-                    <div class="spec-detail">
-                      <span class="spec-value">1 Person</span>
-                      <span class="spec-label">Capacity</span>
+                  <div class="model-specs">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">30m²</span>
+                        <span class="spec-label">Floor Area</span>
+                      </div>
                     </div>
-                  </div>
-                  <div class="spec-item">
-                    <div class="spec-icon"><i class="fas fa-shower"></i></div>
-                    <div class="spec-detail">
-                      <span class="spec-value">Private</span>
-                      <span class="spec-label">Bathroom</span>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-bed"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">1 Person</span>
+                        <span class="spec-label">Capacity</span>
+                      </div>
                     </div>
-                  </div>
-                  <div class="spec-item">
-                    <div class="spec-icon"><i class="fas fa-utensils"></i></div>
-                    <div class="spec-detail">
-                      <span class="spec-value">Private</span>
-                      <span class="spec-label">Kitchen</span>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-shower"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">Private</span>
+                        <span class="spec-label">Bathroom</span>
+                      </div>
                     </div>
-                  </div>
-                </div>
-
-                <div class="model-description">
-                  <p>
-                    For those seeking complete independence, our Big Studio
-                    offers a fully self-contained living space with private
-                    kitchen and bathroom facilities. The thoughtfully designed
-                    layout maximizes space efficiency while providing all the
-                    comforts of a conventional home in a compact footprint.
-                  </p>
-                </div>
-
-                <div class="model-features">
-                  <div class="feature-tag">
-                    <i class="fas fa-bolt"></i> Solar Ready
-                  </div>
-                  <div class="feature-tag">
-                    <i class="fas fa-wifi"></i> WiFi Ready
-                  </div>
-                  <div class="feature-tag">
-                    <i class="fas fa-tint"></i> Water Harvesting
-                  </div>
-                  <!--<div class="feature-tag">
-                    <i class="fas fa-thermometer-half"></i> Climate Control
-                  </div>-->
-                </div>
-
-                <!--<div class="model-actions">
-                  <a
-                    href="#"
-                    class="secondary-btn view-floorplan"
-                    data-model="big-studio"
-                    >View Floorplan</a
-                  >
-                </div>-->
-              </div>
-
-              <div class="model-showcase">
-                <div class="model-image-slider">
-                  <div class="model-main-image">
-                    <img
-                      src="images/40ft2.jpeg"
-                      alt="Big Studio Container Home"
-                    />
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-utensils"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">Private</span>
+                        <span class="spec-label">Kitchen</span>
+                      </div>
+                    </div>
                   </div>
                   <div class="model-thumbnails">
-                    <div class="thumbnail active">
+                    <div class="thumbnail">
                       <img src="images/40ft1.jpeg" alt="Big Studio Exterior" />
                     </div>
                     <div class="thumbnail">
@@ -1061,100 +2358,56 @@
                   </div>
                 </div>
               </div>
-            </div>
-
-            <!-- Apartment Model -->
-            <div class="model-panel" id="apartment-panel">
-              <div class="model-info">
-                <div class="model-header">
-                  <h3>The Apartment</h3>
-                  <div class="model-tag">Family Living</div>
-                </div>
-                <p class="model-subtitle">
-                  Spacious Living for Couples & Families
+              <!-- apartment space -->
+              <div class="mobile-carousel-item">
+                <h2 class="section-title">Our Container Living Spaces</h2>
+                <p class="section-intro">
+                  Discover the perfect space designed for your lifestyle needs
+                  and budget.
                 </p>
-
-                <div class="model-specs">
-                  <div class="spec-item">
-                    <div class="spec-icon">
-                      <i class="fas fa-expand-arrows-alt"></i>
-                    </div>
-                    <div class="spec-detail">
-                      <span class="spec-value">60m²</span>
-                      <span class="spec-label">Floor Area</span>
+                <div class="crisis-item">
+                  <h3 class="slide-title">The Apartment</h3>
+                  <div class="slide-stat">
+                    <div class="stat-caption">
+                      Spacious Living for Couples & Families
                     </div>
                   </div>
-                  <div class="spec-item">
-                    <div class="spec-icon"><i class="fas fa-users"></i></div>
-                    <div class="spec-detail">
-                      <span class="spec-value">2-4 People</span>
-                      <span class="spec-label">Capacity</span>
+                  <div class="model-specs">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">60m²</span>
+                        <span class="spec-label">Floor Area</span>
+                      </div>
                     </div>
-                  </div>
-                  <div class="spec-item">
-                    <div class="spec-icon">
-                      <i class="fas fa-door-open"></i>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-users"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">2-4 People</span>
+                        <span class="spec-label">Capacity</span>
+                      </div>
                     </div>
-                    <div class="spec-detail">
-                      <span class="spec-value">1-2 Bedrooms</span>
-                      <span class="spec-label">Layout</span>
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-door-open"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">1-2 Bedrooms</span>
+                        <span class="spec-label">Layout</span>
+                      </div>
                     </div>
-                  </div>
-                  <div class="spec-item">
-                    <div class="spec-icon"><i class="fas fa-couch"></i></div>
-                    <div class="spec-detail">
-                      <span class="spec-value">Living Room</span>
-                      <span class="spec-label">Common Area</span>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-couch"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">Living Room</span>
+                        <span class="spec-label">Common Area</span>
+                      </div>
                     </div>
-                  </div>
-                </div>
-
-                <div class="model-description">
-                  <p>
-                    Our most spacious residential option, The Apartment combines
-                    multiple container units to create a modern family home.
-                    With separate bedrooms, a dedicated living area, and
-                    complete kitchen facilities, this model provides the space
-                    and functionality needed for families or couples who want
-                    room to grow.
-                  </p>
-                </div>
-
-                <div class="model-features">
-                  <div class="feature-tag">
-                    <i class="fas fa-solar-panel"></i> Full Solar System
-                  </div>
-                  <div class="feature-tag">
-                    <i class="fas fa-wifi"></i> WiFi Ready
-                  </div>
-                  <div class="feature-tag">
-                    <i class="fas fa-tint"></i> Water Harvesting
-                  </div>
-                  <!--<div class="feature-tag">
-                    <i class="fas fa-expand"></i> Expandable
-                  </div>-->
-                </div>
-
-                <!--<div class="model-actions">
-                  <a
-                    href="#"
-                    class="secondary-btn view-floorplan"
-                    data-model="apartment"
-                    >View Floorplan</a
-                  >
-                </div>-->
-              </div>
-
-              <div class="model-showcase">
-                <div class="model-image-slider">
-                  <div class="model-main-image">
-                    <img
-                      src="images/apartment2.jpg"
-                      alt="Apartment Container Home"
-                    />
                   </div>
                   <div class="model-thumbnails">
-                    <div class="thumbnail active">
+                    <div class="thumbnail">
                       <img
                         src="images/apartment3.jpg"
                         alt="Apartment Exterior"
@@ -1175,99 +2428,56 @@
                   </div>
                 </div>
               </div>
-            </div>
-
-            <!-- Co-Working Space Model -->
-            <div class="model-panel" id="coworking-panel">
-              <div class="model-info">
-                <div class="model-header">
-                  <h3>The Co-Working Space</h3>
-                  <div class="model-tag">Productivity</div>
-                </div>
-                <p class="model-subtitle">
-                  Professional Environment for Entrepreneurs
+              <!-- office space -->
+              <div class="mobile-carousel-item">
+                <h2 class="section-title">Our Container Living Spaces</h2>
+                <p class="section-intro">
+                  Discover the perfect space designed for your lifestyle needs
+                  and budget.
                 </p>
-
-                <div class="model-specs">
-                  <div class="spec-item">
-                    <div class="spec-icon">
-                      <i class="fas fa-expand-arrows-alt"></i>
-                    </div>
-                    <div class="spec-detail">
-                      <span class="spec-value">100m²+</span>
-                      <span class="spec-label">Floor Area</span>
+                <div class="crisis-item">
+                  <h3 class="slide-title">The Co-Working Space</h3>
+                  <div class="slide-stat">
+                    <div class="stat-caption">
+                      Professional Environment for Entrepreneurs
                     </div>
                   </div>
-                  <div class="spec-item">
-                    <div class="spec-icon"><i class="fas fa-users"></i></div>
-                    <div class="spec-detail">
-                      <span class="spec-value">50+ People</span>
-                      <span class="spec-label">Capacity</span>
+                  <div class="model-specs">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">100m²+</span>
+                        <span class="spec-label">Floor Area</span>
+                      </div>
                     </div>
-                  </div>
-                  <div class="spec-item">
-                    <div class="spec-icon">
-                      <i class="fas fa-chalkboard"></i>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-users"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">50+ People</span>
+                        <span class="spec-label">Capacity</span>
+                      </div>
                     </div>
-                    <div class="spec-detail">
-                      <span class="spec-value">Meeting Room</span>
-                      <span class="spec-label">Included</span>
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-chalkboard"></i>
+                      </div>
+                      <div class="spec-detail">
+                        <span class="spec-value">Meeting Room</span>
+                        <span class="spec-label">Included</span>
+                      </div>
                     </div>
-                  </div>
-                  <div class="spec-item">
-                    <div class="spec-icon"><i class="fas fa-coffee"></i></div>
-                    <div class="spec-detail">
-                      <span class="spec-value">Kitchenette</span>
-                      <span class="spec-label">Included</span>
+                    <div class="spec-item">
+                      <div class="spec-icon"><i class="fas fa-coffee"></i></div>
+                      <div class="spec-detail">
+                        <span class="spec-value">Kitchenette</span>
+                        <span class="spec-label">Included</span>
+                      </div>
                     </div>
-                  </div>
-                </div>
-
-                <div class="model-description">
-                  <p>
-                    Transform how you work with our dedicated co-working
-                    container. Designed specifically for entrepreneurs, remote
-                    workers, and small teams, this model provides a professional
-                    workspace with high-speed connectivity, collaborative areas,
-                    and everything needed for peak productivity and innovation.
-                  </p>
-                </div>
-
-                <div class="model-features">
-                  <div class="feature-tag">
-                    <i class="fas fa-bolt"></i> Backup Power
-                  </div>
-                  <div class="feature-tag">
-                    <i class="fas fa-wifi"></i> Fast Internet
-                  </div>
-                  <div class="feature-tag">
-                    <i class="fas fa-lock"></i> Security System
-                  </div>
-                  <div class="feature-tag">
-                    <i class="fas fa-laptop"></i> Workstations
-                  </div>
-                </div>
-
-                <!--<div class="model-actions">
-                  <a
-                    href="#"
-                    class="secondary-btn view-floorplan"
-                    data-model="coworking"
-                    >View Floorplan</a
-                  >
-                </div>-->
-              </div>
-
-              <div class="model-showcase">
-                <div class="model-image-slider">
-                  <div class="model-main-image">
-                    <img
-                      src="images/workingspace1.jpg"
-                      alt="Co-Working Container Space"
-                    />
                   </div>
                   <div class="model-thumbnails">
-                    <div class="thumbnail active">
+                    <div class="thumbnail">
                       <img
                         src="images/workingspace2.jpg"
                         alt="Co-Working Exterior"
@@ -1289,17 +2499,20 @@
                 </div>
               </div>
             </div>
+            <div class="mobile-carousel-controls">
+              <div class="mobile-carousel-arrow prev">
+                <i class="fas fa-arrow-left-long"></i>
+              </div>
+              <div class="mobile-carousel-arrow next">
+                <i class="fas fa-arrow-right-long"></i>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- The Experience Section -->
-    <section id="experience" class="experience">
-      <div class="container">
-        <div class="experience-grid">
+        <!-- TACHS exprience section-->
+        <div class="section" id="tachs-experience">
           <div class="experience-content">
-            <h2 class="section-title left-aligned">The TACH Experience</h2>
+            <h2 class="section-title">The TACH Experience</h2>
             <p class="lead">
               TACH offers more than just affordable homes, it creates living
               environments that empower future builders and creators to unleash
@@ -1341,474 +2554,342 @@
                   </p>
                 </div>
               </div>
-              <div class="feature-item" data-scroll>
-                <div class="feature-icon">
-                  <i class="fas fa-users"></i>
-                </div>
-                <div class="feature-text">
-                  <h3>Community Focus</h3>
-                  <p>
-                    Built-in shared spaces foster connection and collaboration
-                    within TACH communities, creating networks of like-minded
-                    neighbors.
+            </div>
+          </div>
+        </div>
+        <!-- for who  -->
+        <div class="section" id="for-who">
+          <div class="mobile-carousel">
+            <div class="mobile-carousel-inner">
+              <div class="mobile-carousel-item">
+                <h2 class="section-title">For Who</h2>
+                <p class="section-intro">
+                  Our homes are designed for everyone, from young professionals
+                  to growing families.
+                </p>
+                <div class="crisis-item">
+                  <h3 class="slide-title">Students & Starters</h3>
+                  <div class="slide-stat">
+                    <div class="stat-caption">Affordable First Homes</div>
+                  </div>
+                  <p class="slide-description">
+                    Start your independent journey with a stylish, modern home
+                    that doesn't break the bank. Our studios and bid studios
+                    models are perfect for young professionals and students
+                    looking to invest in their future while maintaining
+                    financial flexibility.
                   </p>
+                  <ul class="persona-benefits">
+                    <li><i class="fas fa-check"></i> Quick move-in process</li>
+                    <li>
+                      <i class="fas fa-check"></i> Built-in networking
+                      opportunities
+                    </li>
+                    <li><i class="fas fa-check"></i> Reduced utility costs</li>
+                  </ul>
+                </div>
+                <!--<div class="student-background mobile-background"></div>-->
+              </div>
+              <!-- families  -->
+              <div class="mobile-carousel-item">
+                <h2 class="section-title">For Who</h2>
+                <p class="section-intro">
+                  Our homes are designed for everyone, from young professionals
+                  to growing families.
+                </p>
+                <div class="crisis-item">
+                  <h3 class="slide-title">Families</h3>
+                  <div class="slide-stat">
+                    <div class="stat-caption">Room to Grow</div>
+                  </div>
+                  <p class="slide-description">
+                    Our multi-container family homes provide the space you need
+                    at a fraction of traditional housing costs. With the rent to
+                    own model, you can purchase an units via monthly
+                    installments.
+                  </p>
+                  <ul class="persona-benefits">
+                    <li>
+                      <i class="fas fa-check"></i> Multi bedroom configurations
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i> Safe community environments
+                    </li>
+                    <li><i class="fas fa-check"></i> Rent To Own Model</li>
+                    <li>
+                      <i class="fas fa-check"></i> Family friendly outdoor
+                      spaces
+                    </li>
+                  </ul>
+                </div>
+                <!--<div class="families-background mobile-background"></div>-->
+              </div>
+              <!--  entrepreneurs -->
+              <div class="mobile-carousel-item">
+                <h2 class="section-title">For Who</h2>
+                <p class="section-intro">
+                  Our homes are designed for everyone, from young professionals
+                  to growing families.
+                </p>
+                <div class="crisis-item">
+                  <h3 class="slide-title">Entrepreneurs</h3>
+                  <div class="slide-stat">
+                    <div class="stat-caption">Work & Live Spaces</div>
+                  </div>
+                  <p class="slide-description">
+                    Designed for the future builders and creators, our workspace
+                    models combine comfortable living quarters with professional
+                    work areas. Launch your business, network and connect in a
+                    space that inspires creativity and productivity.
+                  </p>
+                  <ul class="persona-benefits">
+                    <li>
+                      <i class="fas fa-check"></i> Dedicated workspace areas
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i> High speed internet ready
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i> Networking with professionals
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i> Professional meeting spaces
+                    </li>
+                  </ul>
+                </div>
+                <!--<div class="entrepreneurs-background mobile-background"></div>-->
+              </div>
+            </div>
+            <div class="mobile-carousel-controls">
+              <div class="mobile-carousel-arrow prev">
+                <i class="fas fa-arrow-left-long"></i>
+              </div>
+              <div class="mobile-carousel-arrow next">
+                <i class="fas fa-arrow-right-long"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- TACHS Goals -->
+      <div class="section" id="tachs-goals">
+        <div class="experience-content">
+          <h2 class="section-title">Our Goals</h2>
+          <div class="impact-stats">
+            <div class="stat-item" data-scroll>
+              <div class="stat-number">
+                <span class="counter" data-target="75">0</span>
+                <span class="plus">+</span>
+              </div>
+              <h3>Homes Building</h3>
+            </div>
+            <div class="stat-item" data-scroll>
+              <div class="stat-number">
+                <span class="counter" data-target="120">0</span>
+                <span class="plus">+</span>
+              </div>
+              <h3>Jobs Creation</h3>
+            </div>
+            <div class="stat-item" data-scroll>
+              <div class="stat-number">
+                <span class="counter" data-target="2500">0</span>
+                <span class="unit">m²</span>
+              </div>
+              <h3>Living Space</h3>
+            </div>
+            <div class="stat-item" data-scroll>
+              <div class="stat-number">
+                <span class="counter" data-target="15000">0</span>
+                <span class="unit">kWh</span>
+              </div>
+              <h3>Solar Energy</h3>
+            </div>
+          </div>
+          <div class="impact-stories">
+            <h3 class="impact-stories-title">Our Vision</h3>
+            <div class="story-carousel">
+              <div class="story-slide active">
+                <div class="story-text">
+                  <p>
+                    TACH envisions a future where every Togolese family has
+                    access to a safe, modern, and affordable home built
+                    sustainably and designed for dignity. We aim to redefine
+                    housing in West Africa through innovation, creating vibrant
+                    off grid communities that not only provide homes but also
+                    empower entrepreneurship.
+                  </p>
+                  <span class="story-author"
+                    >- TACHS., Affordable Homes. Creative Hubs. Limitless
+                    Possibilities</span
+                  >
                 </div>
               </div>
             </div>
           </div>
-          <div class="experience-showcase">
-            <div class="showcase-image main">
-              <img src="images/buildingplan3.jpeg" alt="TACH Home Exterior" />
-            </div>
-            <div class="showcase-image secondary">
-              <img src="images/buildingplan2.jpeg" alt="TACH Home Interior" />
-            </div>
-          </div>
         </div>
       </div>
-    </section>
 
-    <!-- For Who Section -->
-    <section id="for-who" class="for-who">
-      <div class="container">
-        <h2 class="section-title">For Who</h2>
-        <p class="section-intro">
-          Our homes are designed for everyone, from young professionals to
-          growing families.
-        </p>
+      <!-- Normal scrolling section (outside scroll snap) -->
 
-        <div class="personas">
-          <div class="persona-tabs">
-            <div class="persona-tab active" data-target="young-professionals">
-              <div class="persona-icon"><i class="fas fa-briefcase"></i></div>
-              <h3>Young Professionals & Students</h3>
+      <footer class="footer" id="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <img src="images/tach500x500.svg" alt="TACH" />
+              <p class="footer-tagline">
+                Affordable Homes. Creative Hubs. Limitless Possibilities
+              </p>
             </div>
-            <div class="persona-tab" data-target="families">
-              <div class="persona-icon"><i class="fas fa-home"></i></div>
-              <h3>Families</h3>
-            </div>
-            <div class="persona-tab" data-target="entrepreneurs">
-              <div class="persona-icon"><i class="fas fa-lightbulb"></i></div>
-              <h3>Entrepreneurs</h3>
-            </div>
-            <!--<div class="persona-tab" data-target="investors">
-              <div class="persona-icon"><i class="fas fa-chart-line"></i></div>
-              <h3>Investors</h3>
-            </div>-->
-          </div>
-
-          <div class="persona-content">
-            <div class="persona-panel active" id="young-professionals">
-              <div class="persona-image">
-                <img
-                  src="images/student.jpg"
-                  alt="Young Professional"
-                />
-              </div>
-              <div class="persona-description">
-                <h3>Affordable First Homes</h3>
-                <p>
-                  Start your independent journey with a stylish, modern home
-                  that doesn't break the bank. Our studios and bid studios
-                  models are perfect for young professionals and students
-                  looking to invest in their future while maintaining financial
-                  flexibility.
-                </p>
-                <ul class="persona-benefits">
-                  <li><i class="fas fa-check"></i> Quick move-in process</li>
-                  <li>
-                    <i class="fas fa-check"></i> Built-in networking
-                    opportunities
-                  </li>
-                  <li><i class="fas fa-check"></i> Reduced utility costs</li>
+            <div class="footer-links">
+              <div class="footer-column">
+                <h3>Models</h3>
+                <ul>
+                  <li><a href="#models">Studio</a></li>
+                  <li><a href="#models">Big Studio</a></li>
+                  <li><a href="#models">Apartment</a></li>
+                  <li><a href="#models">Workspace</a></li>
                 </ul>
-                <!--<a href="#contact" class="primary-btn">Find Your Home</a>-->
               </div>
-            </div>
-
-            <div class="persona-panel" id="families">
-              <div class="persona-image">
-                <img
-                  src="images/family.jpg"
-                  alt="Family"
-                />
-              </div>
-              <div class="persona-description">
-                <h3>Room to Grow</h3>
-                <p>
-                  Our multi-container family homes provide the space you need at
-                  a fraction of traditional housing costs. With the rent to own
-                  model, you can purchase an units via monthly installments.
-                </p>
-                <ul class="persona-benefits">
-                  <li>
-                    <i class="fas fa-check"></i> Multi bedroom configurations
-                  </li>
-                  <li>
-                    <i class="fas fa-check"></i> Safe community environments
-                  </li>
-                  <li><i class="fas fa-check"></i> Rent To Own Model</li>
-                  <li>
-                    <i class="fas fa-check"></i> Family friendly outdoor spaces
-                  </li>
+              <div class="footer-column">
+                <h3>Company</h3>
+                <ul>
+                  <li><a href="#crisis">The Problems</a></li>
+                  <li><a href="#solution">Our Solutions</a></li>
+                  <li><a href="#impact">Our Impact</a></li>
+                  <li><a href="#experience">The Experience</a></li>
+                  <!-- <li><a href="#">Privacy Policy</a></li> -->
                 </ul>
-                <!--<a href="#contact" class="primary-btn">Find Your Home</a>-->
               </div>
-            </div>
-
-            <div class="persona-panel" id="entrepreneurs">
-              <div class="persona-image">
-                <img
-                  src="images/creators.jpg"
-                  alt="Entrepreneur"
-                />
-              </div>
-              <div class="persona-description">
-                <h3>Work & Live Spaces</h3>
+              <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Lomé, Togo</p>
                 <p>
-                  Designed for the future builders and creators, our workspace
-                  models combine comfortable living quarters with professional
-                  work areas. Launch your business, network and connect in a
-                  space that inspires creativity and productivity.
+                  <i class="fas fa-phone"></i> +228 97783864 / +31 618874429
                 </p>
-                <ul class="persona-benefits">
-                  <li>
-                    <i class="fas fa-check"></i> Dedicated workspace areas
-                  </li>
-                  <li>
-                    <i class="fas fa-check"></i> High speed internet ready
-                  </li>
-                  <li>
-                    <i class="fas fa-check"></i> Networking with like minded
-                    professionals
-                  </li>
-                  <li>
-                    <i class="fas fa-check"></i> Professional meeting spaces
-                  </li>
-                </ul>
-                <!--<a href="#contact" class="primary-btn">Find Your Home</a>-->
+                <p><i class="fas fa-envelope"></i> afriqxpress@gmail.com</p>
               </div>
             </div>
-
-            <!--<div class="persona-panel" id="investors">
-              <div class="persona-image">
-                <img
-                  src="https://images.unsplash.com/photo-1551836022-aaedcc351d7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
-                  alt="Investor"
-                />
-              </div>
-              <div class="persona-description">
-                <h3>Investment Opportunities</h3>
-                <p>
-                  TACH homes offer exceptional rental yields and appreciation
-                  potential. Our turnkey rental management service makes it easy
-                  to generate passive income while contributing to Africa's
-                  sustainable housing revolution.
-                </p>
-                <ul class="persona-benefits">
-                  <li><i class="fas fa-check"></i> High ROI potential</li>
-                  <li>
-                    <i class="fas fa-check"></i> Full rental management services
-                  </li>
-                  <li>
-                    <i class="fas fa-check"></i> Multi-unit purchase options
-                  </li>
-                  <li>
-                    <i class="fas fa-check"></i> Sustainable investment
-                    credentials
-                  </li>
-                </ul>
-                <a href="#contact" class="primary-btn">Investment Details</a>
-              </div>
+            <!--<div class="footer-newsletter">
+              <h3>Stay Updated</h3>
+              <p>Subscribe to our newsletter for the latest news and updates.</p>
+              <form class="newsletter-form">
+                <input type="email" placeholder="Your Email Address" required />
+                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+              </form>
+              <div class="social-links">
+                          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
             </div>-->
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Impact Section -->
-    <section id="impact" class="impact">
-      <div class="container">
-        <h2 class="section-title">Our Goals</h2>
-        <div class="impact-stats">
-          <div class="stat-item" data-scroll>
-            <div class="stat-number">
-              <span class="counter" data-target="75">0</span>
-              <span class="plus">+</span>
-            </div>
-            <h3>Homes Building</h3>
-            <!--<div class="stat-bar">
-              <div class="stat-progress" style="width: 75%"></div>
-            </div>-->
-          </div>
-          <div class="stat-item" data-scroll>
-            <div class="stat-number">
-              <span class="counter" data-target="120">0</span>
-              <span class="plus">+</span>
-            </div>
-            <h3>Jobs Creation</h3>
-            <!--<div class="stat-bar">
-              <div class="stat-progress" style="width: 60%"></div>
-            </div>-->
-          </div>
-          <div class="stat-item" data-scroll>
-            <div class="stat-number">
-              <span class="counter" data-target="2500">0</span>
-              <span class="unit">m²</span>
-            </div>
-            <h3>Living Space</h3>
-           <!--<div class="stat-bar">
-              <div class="stat-progress" style="width: 85%"></div>
-            </div>-->
-          </div>
-          <div class="stat-item" data-scroll>
-            <div class="stat-number">
-              <span class="counter" data-target="15000">0</span>
-              <span class="unit">kWh</span>
-            </div>
-            <h3>Solar Energy</h3>
-            <!--<div class="stat-bar">
-              <div class="stat-progress" style="width: 90%"></div>
-            </div>-->
+          <div class="copyright">
+            <p>
+              &copy; 2025 TACHS - Togo Affordable Container Homes. All rights
+              reserved.
+            </p>
+            <p class="footer-attribution">
+              Sustainably built with <i class="fas fa-heart"></i> in Togo
+            </p>
           </div>
         </div>
-
-        <div class="impact-stories">
-          <h3 class="impact-stories-title">Our Vision</h3>
-          <div class="story-carousel">
-            <div class="story-slide active">
-              <div class="story-image">
-                <img
-                  src="images/tach.svg"
-                  alt="Kofi"
-                />
-              </div>
-              <div class="story-text">
-                <p>
-                  TACH envisions a future where every Togolese family has access to a safe, modern, and affordable home built 
-                  sustainably and designed for dignity. We aim to redefine housing in West Africa through innovation, creating 
-                  vibrant off grid communities that not only provide homes but also empower residents through shared co-working 
-                  spaces, digital tools, and support for entrepreneurship. By combining housing with opportunity, we help people 
-                  live, work, and thrive in one place."
-                </p>
-                <span class="story-author"
-                  >- TACHS., Affordable Homes. Creative Hubs. Limitless Possibilities</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--<section class="team">
-    <h1>Our Exceptional Team</h1>
-    <p class="subtext">
-      Meet our outstanding team – a synergy of talent, creativity,<br>
-      and dedication, crafting success together.
-    </p>
-
-    <div class="team-container">
-      <div class="team-member">
-        <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="William Foster">
-        <h3>William Foster</h3>
-        <span>Co-Founder & CEO</span>
-        <div class="social-icons">
-          <i class="fab fa-x-twitter"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-facebook-f"></i>
-        </div>
-      </div>
-
-      <div class="team-member">
-        <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Emily Jonson">
-        <h3>Emily Jonson</h3>
-        <span>CEO</span>
-        <div class="social-icons">
-          <i class="fab fa-x-twitter"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-facebook-f"></i>
-        </div>
-      </div>
-
-      <div class="team-member">
-        <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Harshita Patel">
-        <h3>Harshita Patel</h3>
-        <span>HR</span>
-        <div class="social-icons">
-          <i class="fab fa-x-twitter"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-facebook-f"></i>
-        </div>
-      </div>
-
-      <div class="team-member">
-        <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Eleanor Morales">
-        <h3>Eleanor Morales</h3>
-        <span>HR</span>
-        <div class="social-icons">
-          <i class="fab fa-x-twitter"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-facebook-f"></i>
-        </div>
-      </div>
+      </footer>
     </div>
-  </section>-->
-    <!-- Call to Action -->
-    <!--<section id="contact" class="cta">
-      <div class="container">
-        <div class="cta-grid">
-          <div class="cta-content">
-            <h2 class="cta-title">
-              Ready to Transform Living or Help doing it?
-            </h2>
-            <p class="cta-text">
-              Request more information, or start your journey to affordable,
-              sustainable housing today.
-            </p>
-
-            <div class="cta-options">
-              <div class="cta-option active" data-form="info">
-                <div class="option-icon">
-                  <i class="fas fa-info-circle"></i>
-                </div>
-                <h3>Request Info</h3>
-              </div>
-              <div class="cta-option" data-form="invest">
-                <div class="option-icon"><i class="fas fa-chart-line"></i></div>
-                <h3>Investment</h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="contact-form-container">
-            <form id="contactForm" class="contact-form">
-              <div class="form-header">
-                <h3>Request Information</h3>
-                <p>Get detailed information about our solutions</p>
-              </div>
-              <div class="form-group">
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Your Name*"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Your Email*"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  placeholder="Your Phone Number"
-                />
-              </div>
-              <div class="form-group">
-                <select id="interest" name="interest" required>
-                  <option value="">I'm interested in...</option>
-                  <option value="studio">The Studio</option>
-                  <option value="bigstudio">The Big Studio</option>
-                  <option value="apartment">The Apartment</option>
-                  <option value="workspace">The Workspace</option>
-                 
-                </select>
-              </div>
-              <div class="form-group">
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder="Additional Information (Optional)"
-                ></textarea>
-              </div>
-              <button type="submit" class="submit-btn">Send request</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>-->
-
-    <!-- Footer -->
-    <footer class="footer" id="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-logo">
-            <img src="images/tach500x500.svg" alt="TACH" />
-            <p class="footer-tagline">
-              Affordable Homes. Creative Hubs. Limitless Possibilities
-            </p>
-          </div>
-          <div class="footer-links">
-            <div class="footer-column">
-              <h3>Models</h3>
-              <ul>
-                <li><a href="#models">Studio</a></li>
-                <li><a href="#models">Big Studio</a></li>
-                <li><a href="#models">Apartment</a></li>
-                <li><a href="#models">Workspace</a></li>
-              </ul>
-            </div>
-            <div class="footer-column">
-              <h3>Company</h3>
-              <ul>
-                <li><a href="#crisis">The Problems</a></li>
-                <li><a href="#solution">Our Solutions</a></li>
-                <li><a href="#impact">Our Impact</a></li>
-                <li><a href="#experience">The Experience</a></li>
-                <!-- <li><a href="#">Privacy Policy</a></li> -->
-              </ul>
-            </div>
-            <div class="footer-column">
-              <h3>Contact Us</h3>
-              <p><i class="fas fa-map-marker-alt"></i> Lomé, Togo</p>
-              <p><i class="fas fa-phone"></i> +228 97783864 / +31 618874429</p>
-              <p><i class="fas fa-envelope"></i> afriqxpress@gmail.com</p>
-            </div>
-          </div>
-          <!--<div class="footer-newsletter">
-            <h3>Stay Updated</h3>
-            <p>Subscribe to our newsletter for the latest news and updates.</p>
-            <form class="newsletter-form">
-              <input type="email" placeholder="Your Email Address" required />
-              <button type="submit"><i class="fas fa-paper-plane"></i></button>
-            </form>
-            <div class="social-links">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-          </div>-->
-        </div>
-        <div class="copyright">
-          <p>
-            &copy; 2025 TACHS - Togo Affordable Container Homes. All rights
-            reserved.
-          </p>
-          <p class="footer-attribution">
-            Sustainably built with <i class="fas fa-heart"></i> in Togo
-          </p>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Scroll To Top Button -->
-    <button id="scrollToTop" class="scroll-to-top">
-      <i class="fas fa-arrow-up"></i>
-    </button>
 
     <!-- Internationalization -->
     <script type="module" src="js/i18n/main.js"></script>
 
     <!-- Custom JS -->
     <script src="js/main.js"></script>
+    <!-- mobile version script-->
+    <script>
+      const sections = document.querySelectorAll(".section");
+      const dotsContainer = document.getElementById("dotsContainer");
+      const scrollContainer = document.getElementById("scrollContainer");
+
+      // Create dots dynamically
+      sections.forEach((_, i) => {
+        const dot = document.createElement("div");
+        dot.classList.add("dot");
+        if (i === 0) dot.classList.add("active");
+        dotsContainer.appendChild(dot);
+      });
+
+      const dots = document.querySelectorAll(".dot");
+
+      // Use IntersectionObserver to track visibility
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const index = [...sections].indexOf(entry.target);
+              sections.forEach((sec) => sec.classList.remove("visible"));
+              dots.forEach((dot) => dot.classList.remove("active"));
+
+              entry.target.classList.add("visible");
+              if (dots[index]) {
+                dots[index].classList.add("active");
+              }
+            }
+          });
+        },
+        { threshold: 0.6 }
+      );
+
+      sections.forEach((section) => observer.observe(section));
+
+      // Carousel functionality
+      document.querySelectorAll(".mobile-carousel").forEach((carousel) => {
+        const inner = carousel.querySelector(".mobile-carousel-inner");
+        const items = carousel.querySelectorAll(".mobile-carousel-item");
+        const prevBtn = carousel.querySelector(".mobile-carousel-arrow.prev");
+        const nextBtn = carousel.querySelector(".mobile-carousel-arrow.next");
+        let currentIndex = 0;
+
+        function updateCarousel() {
+          inner.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        prevBtn.addEventListener("click", () => {
+          if (currentIndex > 0) {
+            currentIndex--;
+            updateCarousel();
+          }
+        });
+
+        nextBtn.addEventListener("click", () => {
+          if (currentIndex < items.length - 1) {
+            currentIndex++;
+            updateCarousel();
+          }
+        });
+
+        // Touch events for swiping
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        carousel.addEventListener("touchstart", (e) => {
+          touchStartX = e.changedTouches[0].screenX;
+        });
+
+        carousel.addEventListener("touchend", (e) => {
+          touchEndX = e.changedTouches[0].screenX;
+          handleSwipe();
+        });
+
+        function handleSwipe() {
+          const diff = touchStartX - touchEndX;
+          if (Math.abs(diff) > 50) {
+            if (diff > 0 && currentIndex < items.length - 1) {
+              currentIndex++;
+            } else if (diff < 0 && currentIndex > 0) {
+              currentIndex--;
+            }
+            updateCarousel();
+          }
+        }
+      });
+    </script>
   </body>
 </html>
