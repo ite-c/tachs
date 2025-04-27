@@ -2221,6 +2221,9 @@ select {
     max-width: 900px;
     margin: 0 auto;
 }
+#tachs-goals .impact-stories{
+    padding: 5px
+}
 
 .impact-stories-title {
     text-align: center;
@@ -2246,6 +2249,9 @@ select {
     position: relative;
     margin-bottom: var(--spacing-lg);
     min-height: 200px;
+}
+#tachs-goals .story-carousel{
+    min-height: 0px;
 }
 
 .story-slide {
@@ -2281,6 +2287,9 @@ select {
     font-style: italic;
     color: var(--color-gray-dark);
     margin-bottom: var(--spacing-md);
+}
+#tachs-goals .story-text p{
+    max-width: 100%;
 }
 
 .story-author {
@@ -8398,7 +8407,7 @@ section.team {
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 0px;
-    margin-bottom: var(--spacing-3xl);
+    margin-bottom:28px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
