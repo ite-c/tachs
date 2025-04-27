@@ -8420,7 +8420,7 @@ section.team {
     background-color: var(--color-light);
     box-shadow: var(--shadow-md);
     transition: transform var(--transition-base);
-    width: 40%;
+    width: 43%;
     margin: 10px;
 }
 #tachs-goals .stat-item h3{
